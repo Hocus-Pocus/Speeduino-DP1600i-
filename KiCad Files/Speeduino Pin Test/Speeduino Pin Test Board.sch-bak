@@ -1,0 +1,176 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Speeduino Pin Test Board"
+Date "2021-12-04"
+Rev ""
+Comp "Robert Hiebert"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Counter_Clockwise J2
+U 1 1 61AC0F6C
+P 5250 3250
+F 0 "J2" H 5300 4400 50  0000 C CNN
+F 1 "Conn_02x20_Counter_Clockwise" H 5300 4300 50  0000 C CNN
+F 2 "Speeduino Pin Test Board:PinHeader_2x20_P2.54mm_Vertical_CW" H 5250 3250 50  0001 C CNN
+F 3 "~" H 5250 3250 50  0001 C CNN
+	1    5250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x20 J3
+U 1 1 61AC29F9
+P 6550 3250
+F 0 "J3" H 6500 4400 50  0000 L CNN
+F 1 "Conn_01x20" H 6350 4300 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 6550 3250 50  0001 C CNN
+F 3 "~" H 6550 3250 50  0001 C CNN
+	1    6550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x20 J1
+U 1 1 61AC413D
+P 4050 3250
+F 0 "J1" H 3968 4367 50  0000 C CNN
+F 1 "Conn_01x20" H 3968 4276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 4050 3250 50  0001 C CNN
+F 3 "~" H 4050 3250 50  0001 C CNN
+	1    4050 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 2350 5050 2350
+Wire Wire Line
+	4250 2450 5050 2450
+Wire Wire Line
+	4250 2550 5050 2550
+Wire Wire Line
+	4250 2650 5050 2650
+Wire Wire Line
+	4250 2750 5050 2750
+Wire Wire Line
+	4250 2850 5050 2850
+Wire Wire Line
+	4250 2950 5050 2950
+Wire Wire Line
+	4250 3050 5050 3050
+Wire Wire Line
+	4250 3350 5050 3350
+Wire Wire Line
+	4250 3450 5050 3450
+Wire Wire Line
+	4250 3650 5050 3650
+Wire Wire Line
+	4250 3750 5050 3750
+Wire Wire Line
+	4250 3850 5050 3850
+Wire Wire Line
+	4250 3950 5050 3950
+Wire Wire Line
+	4250 4050 5050 4050
+Wire Wire Line
+	4250 4150 5050 4150
+Wire Wire Line
+	4250 4250 5050 4250
+Wire Wire Line
+	5550 4250 6350 4250
+Wire Wire Line
+	5550 4150 6350 4150
+Wire Wire Line
+	5550 3950 6350 3950
+Wire Wire Line
+	5550 3850 6350 3850
+Wire Wire Line
+	5550 3650 6350 3650
+Wire Wire Line
+	5550 3550 6350 3550
+Wire Wire Line
+	5550 3450 6350 3450
+Wire Wire Line
+	5550 3350 6350 3350
+Wire Wire Line
+	5550 3250 6350 3250
+Wire Wire Line
+	5550 3150 6350 3150
+Wire Wire Line
+	5550 3050 6350 3050
+Wire Wire Line
+	5550 2950 6350 2950
+Wire Wire Line
+	5550 2850 6350 2850
+Wire Wire Line
+	5550 2750 6350 2750
+Wire Wire Line
+	5550 2650 6350 2650
+Wire Wire Line
+	5550 2550 6350 2550
+Wire Wire Line
+	5550 2450 6350 2450
+Wire Wire Line
+	5550 2350 6350 2350
+Wire Wire Line
+	4250 3550 5050 3550
+Wire Wire Line
+	5550 3750 6350 3750
+Wire Wire Line
+	5550 4050 5650 4050
+Wire Wire Line
+	4250 3150 4900 3150
+Wire Wire Line
+	4250 3250 4900 3250
+$Comp
+L power:GND #PWR0101
+U 1 1 61AD6B8D
+P 5300 4700
+F 0 "#PWR0101" H 5300 4450 50  0001 C CNN
+F 1 "GND" H 5305 4527 50  0000 C CNN
+F 2 "" H 5300 4700 50  0001 C CNN
+F 3 "" H 5300 4700 50  0001 C CNN
+	1    5300 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3150 4900 3250
+Connection ~ 4900 3150
+Wire Wire Line
+	4900 3150 5050 3150
+Connection ~ 4900 3250
+Wire Wire Line
+	4900 3250 5050 3250
+Wire Wire Line
+	4900 3250 4900 4600
+Wire Wire Line
+	4900 4600 5300 4600
+Wire Wire Line
+	5650 4600 5650 4050
+Connection ~ 5650 4050
+Wire Wire Line
+	5650 4050 6350 4050
+Wire Wire Line
+	5300 4700 5300 4600
+Connection ~ 5300 4600
+Wire Wire Line
+	5300 4600 5650 4600
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 61ADAB41
+P 4900 4750
+F 0 "#FLG?" H 4900 4825 50  0001 C CNN
+F 1 "PWR_FLAG" H 4900 4923 50  0000 C CNN
+F 2 "" H 4900 4750 50  0001 C CNN
+F 3 "~" H 4900 4750 50  0001 C CNN
+	1    4900 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 4750 4900 4600
+Connection ~ 4900 4600
+$EndSCHEMATC
