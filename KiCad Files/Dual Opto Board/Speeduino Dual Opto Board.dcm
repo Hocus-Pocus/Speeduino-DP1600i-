@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ILD1
+D OPTOISOLTR 4KV 2CH TRANS 8-SOIC
+K 751-1310-1-ND
+F http://www.vishay.com/docs/83647/ild205t.pdf
+$ENDCMP
+#
+#End Doc Library
