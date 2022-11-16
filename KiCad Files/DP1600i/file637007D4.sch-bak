@@ -359,7 +359,7 @@ F 3 "~" H 5050 1800 50  0001 C CNN
 $EndComp
 Connection ~ 5050 1800
 Wire Wire Line
-	5050 1800 5050 2200
+	5050 1800 5050 2000
 Wire Wire Line
 	6350 3100 6350 3350
 $Comp
@@ -412,4 +412,22 @@ $EndComp
 Connection ~ 7800 1750
 Wire Wire Line
 	7800 1750 7800 2150
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 63756211
+P 4350 2000
+F 0 "J?" H 4268 2217 50  0000 C CNN
+F 1 "Conn_01x01" H 4268 2126 50  0000 C CNN
+F 2 "" H 4350 2000 50  0001 C CNN
+F 3 "~" H 4350 2000 50  0001 C CNN
+	1    4350 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2000 5050 2000
+Connection ~ 5050 2000
+Wire Wire Line
+	5050 2000 5050 2200
+Text Notes 2950 2050 0    50   ~ 0
+12 volt test point header socket
 $EndSCHEMATC

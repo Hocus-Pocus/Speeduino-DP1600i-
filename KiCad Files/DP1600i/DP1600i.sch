@@ -277,7 +277,7 @@ AR Path="/63700916/63732FDB" Ref="J?"  Part="1"
 AR Path="/63732FDB" Ref="J6"  Part="1" 
 F 0 "J6" V 2450 1450 50  0000 R CNN
 F 1 "Conn_01x01" V 2600 1550 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 2350 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2350 1400 50  0001 C CNN
 F 3 "~" H 2350 1400 50  0001 C CNN
 	1    2350 1400
 	0    -1   -1   0   
@@ -290,7 +290,7 @@ AR Path="/63700916/63732FE1" Ref="J?"  Part="1"
 AR Path="/63732FE1" Ref="J3"  Part="1" 
 F 0 "J3" V 1150 1350 50  0000 R CNN
 F 1 "Conn_01x02" V 1300 1500 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 1050 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1050 1400 50  0001 C CNN
 F 3 "~" H 1050 1400 50  0001 C CNN
 	1    1050 1400
 	0    -1   -1   0   
@@ -303,7 +303,7 @@ AR Path="/63700916/63732FED" Ref="J?"  Part="1"
 AR Path="/63732FED" Ref="J5"  Part="1" 
 F 0 "J5" V 2050 5550 50  0000 R CNN
 F 1 "Conn_01x07" V 2150 5750 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical" H 1950 5500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 1950 5500 50  0001 C CNN
 F 3 "~" H 1950 5500 50  0001 C CNN
 	1    1950 5500
 	0    -1   1    0   
@@ -316,7 +316,7 @@ AR Path="/63700916/63732FF3" Ref="J?"  Part="1"
 AR Path="/63732FF3" Ref="J8"  Part="1" 
 F 0 "J8" H 3400 4900 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 3450 4750 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_2x03_P1.00mm_Vertical" H 3350 5100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 3350 5100 50  0001 C CNN
 F 3 "~" H 3350 5100 50  0001 C CNN
 	1    3350 5100
 	1    0    0    -1  
@@ -329,7 +329,7 @@ AR Path="/63700916/63740B15" Ref="J?"  Part="1"
 AR Path="/63740B15" Ref="J4"  Part="1" 
 F 0 "J4" V 1850 1450 50  0000 R CNN
 F 1 "Conn_01x01" V 2000 1550 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 1750 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1750 1400 50  0001 C CNN
 F 3 "~" H 1750 1400 50  0001 C CNN
 	1    1750 1400
 	0    -1   -1   0   
@@ -342,7 +342,7 @@ AR Path="/63700916/63741C48" Ref="J?"  Part="1"
 AR Path="/63741C48" Ref="J7"  Part="1" 
 F 0 "J7" V 3150 1350 50  0000 R CNN
 F 1 "Conn_01x02" V 3300 1550 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 3050 1400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3050 1400 50  0001 C CNN
 F 3 "~" H 3050 1400 50  0001 C CNN
 	1    3050 1400
 	0    -1   -1   0   
@@ -441,7 +441,7 @@ U 1 1 637520D2
 P 1000 5500
 F 0 "J2" V 1100 5550 50  0000 R CNN
 F 1 "Conn_01x05" V 1200 5650 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 1000 5500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1000 5500 50  0001 C CNN
 F 3 "~" H 1000 5500 50  0001 C CNN
 	1    1000 5500
 	0    -1   1    0   
