@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Dual_VR_Conditioner
+#
+DEF Dual_VR_Conditioner U 0 40 Y Y 1 F N
+F0 "U" -50 350 50 H V C CNN
+F1 "Dual_VR_Conditioner" -50 250 50 H V C CNN
+F2 "" -50 50 50 H I C CNN
+F3 "" -50 50 50 H I C CNN
+DRAW
+P 5 0 1 0 -300 200 200 200 200 -200 -300 -200 -300 200 N
+X VR1- 1 -400 150 100 R 50 50 1 1 I
+X VR1+ 2 -400 50 100 R 50 50 1 1 W
+X VR2+ 3 -400 -50 100 R 50 50 1 1 I
+X VR2- 4 -400 -150 100 R 50 50 1 1 I
+X 5V 5 300 -150 100 L 50 50 1 1 W
+X Gnd 6 300 -50 100 L 50 50 1 1 W
+X V2out 7 300 50 100 L 50 50 1 1 O
+X V1out 8 300 150 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
