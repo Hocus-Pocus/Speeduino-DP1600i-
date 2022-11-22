@@ -1,4 +1,4 @@
-19385272441846017
+19386941515661710
 BPEM488CWaux
 A4988StepStick
 Through hole straight pin header, 1x08, 2.54mm pitch, single row
@@ -56125,6 +56125,13 @@ MPXH6115_Adapter
 0
 8
 8
+MPXH61115AC6U Adapter
+MPXH6115_Adapter_Vertical
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

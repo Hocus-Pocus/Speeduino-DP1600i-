@@ -24,63 +24,32 @@ F 3 "" H 1000 2100 50  0001 C CNN
 	1    1000 2100
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1050 1850 1150 1850
 $Comp
 L Device:C C1
 U 1 1 5CD20B6A
-P 1150 1500
-F 0 "C1" H 950 1550 50  0000 L CNN
-F 1 "0.01uF" H 850 1450 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1188 1350 50  0001 C CNN
-F 3 "~" H 1150 1500 50  0001 C CNN
-F 4 "445-174244-1-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "TDK" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "FA18X7R1H103KNU06" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X7R1H103KNU06/445-174244-1-ND/5865002" H 0   0   50  0001 C CNN "URL"
-	1    1150 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5CD2115B
-P 1450 1500
-F 0 "C3" H 1565 1546 50  0000 L CNN
-F 1 "1uF" H 1565 1455 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1488 1350 50  0001 C CNN
-F 3 "~" H 1450 1500 50  0001 C CNN
-F 4 "445-180543-1-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "TDK" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "FA18X7R1E105KRU06" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X7R1E105KRU06/445-180543-1-ND/9560669" H 0   0   50  0001 C CNN "URL"
-	1    1450 1500
+P 1450 1550
+F 0 "C1" H 1250 1600 50  0000 L CNN
+F 1 "0.1uF" H 1150 1500 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1488 1400 50  0001 C CNN
+F 3 "~" H 1450 1550 50  0001 C CNN
+F 4 "445-174244-1-ND" H 300 50  50  0001 C CNN "Digikey Part Number"
+F 5 "TDK" H 300 50  50  0001 C CNN "Manufacturer_Name"
+F 6 "FA18X7R1H103KNU06" H 300 50  50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X7R1H103KNU06/445-174244-1-ND/5865002" H 300 50  50  0001 C CNN "URL"
+	1    1450 1550
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 5CD21884
-P 1300 1100
-F 0 "#PWR07" H 1300 850 50  0001 C CNN
-F 1 "GND" H 1305 927 50  0000 C CNN
-F 2 "" H 1300 1100 50  0001 C CNN
-F 3 "" H 1300 1100 50  0001 C CNN
-	1    1300 1100
+P 1450 1250
+F 0 "#PWR07" H 1450 1000 50  0001 C CNN
+F 1 "GND" H 1455 1077 50  0000 C CNN
+F 2 "" H 1450 1250 50  0001 C CNN
+F 3 "" H 1450 1250 50  0001 C CNN
+	1    1450 1250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1150 1350 1300 1350
-Wire Wire Line
-	1300 1350 1300 1100
-Connection ~ 1300 1350
-Wire Wire Line
-	1300 1350 1450 1350
-Wire Wire Line
-	1150 1850 1150 1650
-Connection ~ 1150 1850
-Wire Wire Line
-	1150 1850 1450 1850
-Wire Wire Line
-	1450 1850 1450 1650
 Text Notes 1800 1200 0    74   ~ 0
 MAP Sensor
 $Comp
@@ -652,7 +621,7 @@ L Device:R R5
 U 1 1 5EAE007D
 P 2650 1900
 F 0 "R5" V 2750 1900 50  0000 C CNN
-F 1 "470R" V 2850 1900 50  0000 C CNN
+F 1 "51K" V 2850 1900 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2580 1900 50  0001 C CNN
 F 3 "~" H 2650 1900 50  0001 C CNN
 F 4 "Vishay" H -100 0   50  0001 C CNN "Manufacturer_Name"
@@ -667,7 +636,7 @@ L Device:C C9
 U 1 1 5EAE07A7
 P 2950 2050
 F 0 "C9" H 3065 2096 50  0000 L CNN
-F 1 "470pf" H 3065 2005 50  0000 L CNN
+F 1 "47pf" H 3065 2005 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 2988 1900 50  0001 C CNN
 F 3 "~" H 2950 2050 50  0001 C CNN
 F 4 "445-180522-1-ND" H 0   400 50  0001 C CNN "Digikey Part Number"
@@ -899,63 +868,32 @@ F 3 "" H 1050 3800 50  0001 C CNN
 	1    1050 3800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1100 3550 1200 3550
 $Comp
 L Device:C C2
 U 1 1 63876419
-P 1200 3200
-F 0 "C2" H 1000 3250 50  0000 L CNN
-F 1 "0.01uF" H 900 3150 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1238 3050 50  0001 C CNN
-F 3 "~" H 1200 3200 50  0001 C CNN
-F 4 "445-174244-1-ND" H 50  1700 50  0001 C CNN "Digikey Part Number"
-F 5 "TDK" H 50  1700 50  0001 C CNN "Manufacturer_Name"
-F 6 "FA18X7R1H103KNU06" H 50  1700 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X7R1H103KNU06/445-174244-1-ND/5865002" H 50  1700 50  0001 C CNN "URL"
-	1    1200 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 63876423
-P 1500 3200
-F 0 "C4" H 1615 3246 50  0000 L CNN
-F 1 "1uF" H 1615 3155 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1538 3050 50  0001 C CNN
-F 3 "~" H 1500 3200 50  0001 C CNN
-F 4 "445-180543-1-ND" H 50  1700 50  0001 C CNN "Digikey Part Number"
-F 5 "TDK" H 50  1700 50  0001 C CNN "Manufacturer_Name"
-F 6 "FA18X7R1E105KRU06" H 50  1700 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X7R1E105KRU06/445-180543-1-ND/9560669" H 50  1700 50  0001 C CNN "URL"
-	1    1500 3200
+P 1500 3250
+F 0 "C2" H 1300 3300 50  0000 L CNN
+F 1 "0.1uF" H 1200 3200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 1538 3100 50  0001 C CNN
+F 3 "~" H 1500 3250 50  0001 C CNN
+F 4 "445-174244-1-ND" H 350 1750 50  0001 C CNN "Digikey Part Number"
+F 5 "TDK" H 350 1750 50  0001 C CNN "Manufacturer_Name"
+F 6 "FA18X7R1H103KNU06" H 350 1750 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X7R1H103KNU06/445-174244-1-ND/5865002" H 350 1750 50  0001 C CNN "URL"
+	1    1500 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 63876429
-P 1350 2800
-F 0 "#PWR08" H 1350 2550 50  0001 C CNN
-F 1 "GND" H 1355 2627 50  0000 C CNN
-F 2 "" H 1350 2800 50  0001 C CNN
-F 3 "" H 1350 2800 50  0001 C CNN
-	1    1350 2800
+P 1500 2950
+F 0 "#PWR08" H 1500 2700 50  0001 C CNN
+F 1 "GND" H 1505 2777 50  0000 C CNN
+F 2 "" H 1500 2950 50  0001 C CNN
+F 3 "" H 1500 2950 50  0001 C CNN
+	1    1500 2950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1200 3050 1350 3050
-Wire Wire Line
-	1350 3050 1350 2800
-Connection ~ 1350 3050
-Wire Wire Line
-	1350 3050 1500 3050
-Wire Wire Line
-	1200 3550 1200 3350
-Connection ~ 1200 3550
-Wire Wire Line
-	1200 3550 1500 3550
-Wire Wire Line
-	1500 3550 1500 3350
 Text Notes 1850 2900 0    74   ~ 0
 Baro Sensor
 $Comp
@@ -974,7 +912,7 @@ L Device:R R6
 U 1 1 63876453
 P 2700 3600
 F 0 "R6" V 2800 3600 50  0000 C CNN
-F 1 "470R" V 2900 3600 50  0000 C CNN
+F 1 "51K" V 2900 3600 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2630 3600 50  0001 C CNN
 F 3 "~" H 2700 3600 50  0001 C CNN
 F 4 "Vishay" H -50 1700 50  0001 C CNN "Manufacturer_Name"
@@ -989,7 +927,7 @@ L Device:C C10
 U 1 1 6387645D
 P 3000 3750
 F 0 "C10" H 3115 3796 50  0000 L CNN
-F 1 "470pf" H 3115 3705 50  0000 L CNN
+F 1 "47pf" H 3115 3705 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3038 3600 50  0001 C CNN
 F 3 "~" H 3000 3750 50  0001 C CNN
 F 4 "445-180522-1-ND" H 50  2100 50  0001 C CNN "Digikey Part Number"
@@ -1268,33 +1206,10 @@ Text Notes 7700 6400 0    50   ~ 0
 From Aux board
 Text Notes 8300 5450 0    50   ~ 0
 VR conditoner module is in Aux board
-$Comp
-L DP1600i:MPXH6115_Adapter U1
-U 1 1 6379BA31
-P 2000 2000
-F 0 "U1" H 2000 2365 50  0000 C CNN
-F 1 "MPXH6115_Adapter" H 2000 2274 50  0000 C CNN
-F 2 "MPXH61115AC6U Adapter:MPXH6115_Adapter" H 2000 2000 50  0001 C CNN
-F 3 "" H 2000 2000 50  0001 C CNN
-	1    2000 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L DP1600i:MPXH6115_Adapter U2
-U 1 1 6379C307
-P 2000 3700
-F 0 "U2" H 2000 4065 50  0000 C CNN
-F 1 "MPXH6115_Adapter" H 2000 3974 50  0000 C CNN
-F 2 "MPXH61115AC6U Adapter:MPXH6115_Adapter" H 2000 3700 50  0001 C CNN
-F 3 "" H 2000 3700 50  0001 C CNN
-	1    2000 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1650 2000 1450 2000
 Wire Wire Line
 	1450 2000 1450 1850
-Connection ~ 1450 1850
 Wire Wire Line
 	1000 2100 1650 2100
 Wire Wire Line
@@ -1309,7 +1224,6 @@ Wire Wire Line
 	1650 3700 1500 3700
 Wire Wire Line
 	1500 3700 1500 3550
-Connection ~ 1500 3550
 Wire Wire Line
 	1050 3800 1650 3800
 Wire Wire Line
@@ -1321,14 +1235,6 @@ Wire Wire Line
 Wire Wire Line
 	2550 4100 2550 3600
 NoConn ~ 1650 1900
-NoConn ~ 2350 1900
-NoConn ~ 2350 2000
-NoConn ~ 2350 2100
-NoConn ~ 2350 2200
-NoConn ~ 2350 3600
-NoConn ~ 2350 3700
-NoConn ~ 2350 3800
-NoConn ~ 2350 3900
 NoConn ~ 1650 3600
 $Comp
 L Device:R R14
@@ -1598,4 +1504,40 @@ From Aux board
 Wire Wire Line
 	4900 1250 5050 1250
 Connection ~ 5050 1250
+Wire Wire Line
+	1050 1850 1450 1850
+Wire Wire Line
+	1100 3550 1500 3550
+Wire Wire Line
+	1500 2950 1500 3100
+Wire Wire Line
+	1500 3400 1500 3550
+Connection ~ 1500 3550
+Wire Wire Line
+	1450 1250 1450 1400
+Wire Wire Line
+	1450 1700 1450 1850
+Connection ~ 1450 1850
+$Comp
+L DP1600i:MPXH6115_Adapter_Vertical U1
+U 1 1 6381C9E7
+P 2000 2000
+F 0 "U1" H 1850 2350 50  0000 L CNN
+F 1 "MPXH6115_Adapter_Vertical" H 1650 2250 50  0000 L CNN
+F 2 "MPXH61115AC6U Adapter:MPXH6115_Adapter_Vertical" H 2000 2000 50  0001 C CNN
+F 3 "" H 2000 2000 50  0001 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L DP1600i:MPXH6115_Adapter_Vertical U2
+U 1 1 6381CCD6
+P 2000 3700
+F 0 "U2" H 1850 4050 50  0000 L CNN
+F 1 "MPXH6115_Adapter_Vertical" H 1650 3950 50  0000 L CNN
+F 2 "MPXH61115AC6U Adapter:MPXH6115_Adapter_Vertical" H 2000 3700 50  0001 C CNN
+F 3 "" H 2000 3700 50  0001 C CNN
+	1    2000 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
