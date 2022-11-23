@@ -436,11 +436,9 @@ Wire Wire Line
 	3500 6150 3300 6150
 NoConn ~ 3300 6350
 NoConn ~ 3300 6450
-NoConn ~ 3300 6550
-NoConn ~ 2500 6550
 NoConn ~ 2500 6450
 NoConn ~ 2500 6350
-Text Notes 4850 3950 0    50   ~ 0
+Text Notes 5000 3950 0    50   ~ 0
 (2 amp sink)
 Text Notes 8950 1950 0    50   ~ 0
 (Ign2)
@@ -672,10 +670,6 @@ F 3 "" H 7200 2750 60  0001 C CNN
 	1    7200 2750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 3300 6750
-NoConn ~ 3300 6650
-NoConn ~ 2500 6750
-NoConn ~ 2500 6650
 $Comp
 L power:VDD #PWR055
 U 1 1 64A35619
@@ -737,4 +731,258 @@ Text Notes 5750 6900 0    50   ~ 0
 (500mA sinking max)
 Text Notes 5750 7000 0    50   ~ 0
 (500mA sinking max)
+$Comp
+L a4988stepstick:A4988StepStick U10
+U 1 1 63833FFB
+P 6950 3650
+F 0 "U10" H 7250 3875 50  0000 C CNN
+F 1 "A4988StepStick" H 7250 3784 50  0000 C CNN
+F 2 "BPEM488CWaux:A4988StepStick" H 6950 4050 50  0001 C CNN
+F 3 "" H 6950 4050 50  0001 C CNN
+	1    6950 3650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6850 3650
+NoConn ~ 6850 3750
+NoConn ~ 6850 3850
+NoConn ~ 6850 3950
+Wire Wire Line
+	6850 4050 6750 4050
+Wire Wire Line
+	6750 4150 6850 4150
+Text GLabel 6750 4250 0    60   Input ~ 0
+MCU-D17
+Text GLabel 6750 4350 0    60   Input ~ 0
+MCU-D16
+Wire Wire Line
+	6750 4250 6850 4250
+Wire Wire Line
+	6750 4350 6850 4350
+$Comp
+L power:GND #PWR?
+U 1 1 63842D78
+P 7750 4350
+AR Path="/637A4EA7/63842D78" Ref="#PWR?"  Part="1" 
+AR Path="/63700A4E/63842D78" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 7750 4100 50  0001 C CNN
+F 1 "GND" V 7750 4150 50  0000 C CNN
+F 2 "" H 7750 4350 50  0000 C CNN
+F 3 "" H 7750 4350 50  0000 C CNN
+	1    7750 4350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7750 3650 2    60   Input ~ 0
+12V
+$Comp
+L power:VDD #PWR0103
+U 1 1 638436A5
+P 7750 4250
+F 0 "#PWR0103" H 7750 4100 50  0001 C CNN
+F 1 "VDD" V 7765 4377 50  0000 L CNN
+F 2 "" H 7750 4250 50  0001 C CNN
+F 3 "" H 7750 4250 50  0001 C CNN
+	1    7750 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 4250 7650 4250
+Wire Wire Line
+	7750 4350 7650 4350
+$Comp
+L power:GND #PWR?
+U 1 1 6384B006
+P 7750 3750
+AR Path="/637A4EA7/6384B006" Ref="#PWR?"  Part="1" 
+AR Path="/63700A4E/6384B006" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 7750 3500 50  0001 C CNN
+F 1 "GND" V 7750 3550 50  0000 C CNN
+F 2 "" H 7750 3750 50  0000 C CNN
+F 3 "" H 7750 3750 50  0000 C CNN
+	1    7750 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 3650 7650 3650
+Wire Wire Line
+	7650 3750 7750 3750
+Wire Wire Line
+	6750 4050 6750 4150
+$Comp
+L Connector_Generic:Conn_01x01 J95
+U 1 1 63850563
+P 8150 3850
+F 0 "J95" H 8250 3850 50  0000 L CNN
+F 1 "Step 2B" H 8450 3850 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 8150 3850 50  0001 C CNN
+F 3 "~" H 8150 3850 50  0001 C CNN
+	1    8150 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J96
+U 1 1 63851570
+P 8150 3950
+F 0 "J96" H 8250 3950 50  0000 L CNN
+F 1 "Step 2A" H 8450 3950 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 8150 3950 50  0001 C CNN
+F 3 "~" H 8150 3950 50  0001 C CNN
+	1    8150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J97
+U 1 1 6385179C
+P 8150 4050
+F 0 "J97" H 8250 4050 50  0000 L CNN
+F 1 "Step 1A" H 8450 4050 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 8150 4050 50  0001 C CNN
+F 3 "~" H 8150 4050 50  0001 C CNN
+	1    8150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J98
+U 1 1 638519B8
+P 8150 4150
+F 0 "J98" H 8250 4150 50  0000 L CNN
+F 1 "Step 1B" H 8450 4150 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 8150 4150 50  0001 C CNN
+F 3 "~" H 8150 4150 50  0001 C CNN
+	1    8150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3850 7650 3850
+Wire Wire Line
+	7650 3950 7950 3950
+Wire Wire Line
+	7950 4050 7650 4050
+Wire Wire Line
+	7650 4150 7950 4150
+$Comp
+L Connector_Generic:Conn_01x01 J94
+U 1 1 6385F0F6
+P 3700 6750
+F 0 "J94" H 3800 6750 50  0000 L CNN
+F 1 "D5 out" H 4000 6750 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 3700 6750 50  0001 C CNN
+F 3 "~" H 3700 6750 50  0001 C CNN
+	1    3700 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J89
+U 1 1 638624F2
+P 2800 5400
+F 0 "J89" H 2900 5400 50  0000 L CNN
+F 1 "Pin D2" H 3050 5400 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 2800 5400 50  0001 C CNN
+F 3 "~" H 2800 5400 50  0001 C CNN
+	1    2800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J88
+U 1 1 6386843A
+P 2800 5300
+F 0 "J88" H 2900 5300 50  0000 L CNN
+F 1 "Pin D3" H 3050 5300 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 2800 5300 50  0001 C CNN
+F 3 "~" H 2800 5300 50  0001 C CNN
+	1    2800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J87
+U 1 1 63868624
+P 2800 5200
+F 0 "J87" H 2900 5200 50  0000 L CNN
+F 1 "Pin D4" H 3050 5200 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 2800 5200 50  0001 C CNN
+F 3 "~" H 2800 5200 50  0001 C CNN
+	1    2800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J93
+U 1 1 63868DE4
+P 3700 6650
+F 0 "J93" H 3800 6650 50  0000 L CNN
+F 1 "D6 out" H 4000 6650 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 3700 6650 50  0001 C CNN
+F 3 "~" H 3700 6650 50  0001 C CNN
+	1    3700 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J92
+U 1 1 63868FF1
+P 3700 6550
+F 0 "J92" H 3800 6550 50  0000 L CNN
+F 1 "D7 out" H 4000 6550 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 3700 6550 50  0001 C CNN
+F 3 "~" H 3700 6550 50  0001 C CNN
+	1    3700 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 6750 3500 6750
+Wire Wire Line
+	3300 6650 3500 6650
+Wire Wire Line
+	3300 6550 3500 6550
+Wire Wire Line
+	2300 6550 2500 6550
+Wire Wire Line
+	2300 6650 2500 6650
+Wire Wire Line
+	2300 6750 2500 6750
+Text GLabel 2300 6750 0    50   Input ~ 0
+MCU-D5
+Text GLabel 2300 6650 0    50   Input ~ 0
+MCU-D6
+Text GLabel 2300 6550 0    50   Input ~ 0
+MCU-D7
+Text GLabel 2400 5400 0    50   Input ~ 0
+MCU-D2
+Text GLabel 2400 5300 0    50   Input ~ 0
+MCU-D3
+Text GLabel 2400 5200 0    50   Input ~ 0
+MCU-D4
+$Comp
+L Connector_Generic:Conn_01x01 J91
+U 1 1 6388FA86
+P 2800 5600
+F 0 "J91" H 2900 5600 50  0000 L CNN
+F 1 "Pin D0" H 3050 5600 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 2800 5600 50  0001 C CNN
+F 3 "~" H 2800 5600 50  0001 C CNN
+	1    2800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J90
+U 1 1 6388FA8C
+P 2800 5500
+F 0 "J90" H 2900 5500 50  0000 L CNN
+F 1 "Pin D1" H 3050 5500 50  0000 L CNN
+F 2 "DP1600i:Jumper-Pad" H 2800 5500 50  0001 C CNN
+F 3 "~" H 2800 5500 50  0001 C CNN
+	1    2800 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 5600 0    50   Input ~ 0
+MCU-D0
+Text GLabel 2400 5500 0    50   Input ~ 0
+MCU-D1
+Wire Wire Line
+	2400 5200 2600 5200
+Wire Wire Line
+	2400 5300 2600 5300
+Wire Wire Line
+	2400 5400 2600 5400
+Wire Wire Line
+	2400 5500 2600 5500
+Wire Wire Line
+	2400 5600 2600 5600
 $EndSCHEMATC

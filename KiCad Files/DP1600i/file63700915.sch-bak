@@ -18,19 +18,15 @@ L Connector:DB25_Female J1
 U 1 1 638C4BB1
 P 5800 3400
 F 0 "J1" H 5980 3446 50  0000 L CNN
-F 1 "DB25_Female" H 5980 3355 50  0000 L CNN
-F 2 "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 5800 3400 50  0001 C CNN
+F 1 "DB25_Male" H 5980 3355 50  0000 L CNN
+F 2 "Connector_Dsub:DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 5800 3400 50  0001 C CNN
 F 3 " ~" H 5800 3400 50  0001 C CNN
 	1    5800 3400
 	-1   0    0    1   
 $EndComp
-Text GLabel 6350 4600 2    50   Input ~ 0
-IAT_Sensor
 Text GLabel 7000 4500 2    50   Input ~ 0
-CLT_Sensor
-Text GLabel 6350 4400 2    50   Input ~ 0
 O2_Sensor
-Text GLabel 7000 4300 2    50   Input ~ 0
+Text GLabel 6350 4400 2    50   Input ~ 0
 TPS_Sensor
 Text GLabel 7000 4100 2    50   Input ~ 0
 SigRtn
@@ -60,8 +56,6 @@ Text GLabel 7000 2200 2    50   Input ~ 0
 12V
 Wire Wire Line
 	6100 4600 6350 4600
-Wire Wire Line
-	6100 4500 7000 4500
 Wire Wire Line
 	6100 4400 6350 4400
 Wire Wire Line
@@ -141,7 +135,7 @@ Text GLabel 6350 3500 2    50   Input ~ 0
 MCU-D19
 Text GLabel 7000 3600 2    50   Input ~ 0
 MCU-D18
-Text GLabel 6350 4200 2    50   Input ~ 0
+Text GLabel 6350 4600 2    50   Input ~ 0
 Spare-ADC
 Wire Wire Line
 	6350 3800 6100 3800
@@ -183,16 +177,14 @@ Text Notes 6700 4050 0    50   ~ 0
 5 volt ADC
 Text Notes 7350 4150 0    50   ~ 0
 Sensor ground
-Text Notes 6850 4250 0    50   ~ 0
-Spare ADC
-Text Notes 7500 4350 0    50   ~ 0
-Throttle Position Sensor
-Text Notes 6800 4450 0    50   ~ 0
-Wide Band O2 sensor
-Text Notes 7500 4550 0    50   ~ 0
-Cylinder head temperaure
 Text Notes 6850 4650 0    50   ~ 0
-Inlet Air Temperature
+Spare ADC
+Text Notes 6850 4450 0    50   ~ 0
+Throttle Position Sensor
+Text Notes 7450 4550 0    50   ~ 0
+Wide Band O2 sensor
+Text Notes 7500 4350 0    50   ~ 0
+Cylinder head temperaure
 NoConn ~ 6100 3900
 Wire Wire Line
 	6100 4200 6350 4200
@@ -217,4 +209,12 @@ Text Notes 7400 5150 0    50   ~ 0
 Sensor ground
 Text Notes 5400 5150 0    50   ~ 0
 Common ground
+Text Notes 6850 4250 0    50   ~ 0
+Inlet Air Temperature
+Wire Wire Line
+	6100 4500 7000 4500
+Text GLabel 7000 4300 2    50   Input ~ 0
+CLT_Sensor
+Text GLabel 6350 4200 2    50   Input ~ 0
+IAT_Sensor
 $EndSCHEMATC

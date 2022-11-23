@@ -417,8 +417,8 @@ L Connector_Generic:Conn_01x01 J2
 U 1 1 63756211
 P 4350 2000
 F 0 "J2" H 4268 2217 50  0000 C CNN
-F 1 "Conn_01x01" H 4268 2126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 4350 2000 50  0001 C CNN
+F 1 "12V Test" H 4268 2126 50  0000 C CNN
+F 2 "DP1600i:Jumper-Pad" H 4350 2000 50  0001 C CNN
 F 3 "~" H 4350 2000 50  0001 C CNN
 	1    4350 2000
 	-1   0    0    -1  

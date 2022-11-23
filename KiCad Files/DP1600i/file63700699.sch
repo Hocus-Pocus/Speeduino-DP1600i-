@@ -219,7 +219,7 @@ Wire Wire Line
 	5750 6650 6000 6650
 Wire Wire Line
 	6200 6650 6200 6850
-Text GLabel 6000 6350 2    50   Input ~ 0
+Text GLabel 2450 6350 2    50   Input ~ 0
 ADC-Clamp-2
 Wire Wire Line
 	6000 6350 6000 6650
@@ -231,7 +231,7 @@ TPS_Sensor
 Wire Wire Line
 	5000 6650 5150 6650
 Connection ~ 5150 6650
-Text GLabel 6400 6650 2    50   Input ~ 0
+Text GLabel 2850 6650 2    50   Input ~ 0
 MCU-A2
 Wire Wire Line
 	6400 6650 6200 6650
@@ -323,7 +323,7 @@ IAT_Sensor
 Wire Wire Line
 	4950 3100 5100 3100
 Connection ~ 5100 3100
-Text GLabel 6350 3100 2    50   Input ~ 0
+Text GLabel 3400 3600 2    50   Input ~ 0
 MCU-A0
 Wire Wire Line
 	6350 3100 6150 3100
@@ -445,7 +445,7 @@ CLT_Sensor
 Wire Wire Line
 	5000 4950 5150 4950
 Connection ~ 5150 4950
-Text GLabel 6400 4950 2    50   Input ~ 0
+Text GLabel 3350 1900 2    50   Input ~ 0
 MCU-A1
 Wire Wire Line
 	6400 4950 6200 4950
@@ -554,14 +554,14 @@ Wire Wire Line
 Wire Wire Line
 	2650 6650 2650 6850
 Text GLabel 5950 2800 2    50   Input ~ 0
-ADC-Clamp-0
+ADC-Clamp-3
 Wire Wire Line
 	2450 6350 2450 6650
 Connection ~ 2450 6650
 Wire Wire Line
 	2450 6650 2650 6650
 Connection ~ 1600 6650
-Text GLabel 2850 6650 2    50   Input ~ 0
+Text GLabel 6400 4950 2    50   Input ~ 0
 MCU-A4
 Wire Wire Line
 	2850 6650 2650 6650
@@ -646,7 +646,7 @@ F 7 "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18NP01H471JN
 	1    2950 2050
 	1    0    0    -1  
 $EndComp
-Text GLabel 3350 1900 2    50   Input ~ 0
+Text GLabel 6350 3100 2    50   Input ~ 0
 MCU-A3
 Wire Wire Line
 	2800 1900 2950 1900
@@ -670,10 +670,10 @@ Wire Wire Line
 	1600 7300 2650 7300
 Text GLabel 2400 4650 2    50   Input ~ 0
 ADC-Clamp-7
-Text GLabel 2450 6350 2    50   Input ~ 0
-ADC-Clamp-4
 Text GLabel 6000 4650 2    50   Input ~ 0
-ADC-Clamp-1
+ADC-Clamp-4
+Text GLabel 6000 6350 2    50   Input ~ 0
+ADC-Clamp-5
 $Comp
 L Diode:1N5818 D9
 U 1 1 637AC682
@@ -937,7 +937,7 @@ F 7 "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18NP01H471JN
 	1    3000 3750
 	1    0    0    -1  
 $EndComp
-Text GLabel 3400 3600 2    50   Input ~ 0
+Text GLabel 6400 6650 2    50   Input ~ 0
 MCU-A5
 Wire Wire Line
 	2850 3600 3000 3600
@@ -1010,7 +1010,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 2200 8200 2200
 Text GLabel 7950 2100 0    50   Input ~ 0
-ADC-Clamp-1
+ADC-Clamp-5
 Wire Wire Line
 	7950 2100 8100 2100
 Connection ~ 8100 2100
@@ -1071,7 +1071,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 1400 8200 1400
 Text GLabel 7950 1300 0    50   Input ~ 0
-ADC-Clamp-0
+ADC-Clamp-3
 Wire Wire Line
 	7950 1300 8100 1300
 Connection ~ 8100 1300
