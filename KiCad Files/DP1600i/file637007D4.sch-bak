@@ -46,28 +46,7 @@ F 8 "https://www.digikey.com.au/product-detail/en/panasonic-electronic-component
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 2700 5050 2700
-Wire Wire Line
-	5050 2700 5500 2700
-Connection ~ 5050 2700
-$Comp
-L Device:D_Schottky D14
-U 1 1 5CD266C1
-P 5050 2350
-F 0 "D14" H 5050 2250 50  0000 C CNN
-F 1 "SB230TA" H 5050 2500 50  0000 C CNN
-F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 5050 2350 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/115/ds13002-60388.pdf" H 5050 2350 50  0001 C CNN
-F 4 "1655-1518-1-ND" H -650 -100 50  0001 C CNN "Digikey Part Number"
-F 5 "SMC" H -650 -100 50  0001 C CNN "Manufacturer_Name"
-F 6 "SB230TA" H -650 -100 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/smc-diode-solutions/SB230TA/1655-1518-1-ND/6022963" H -650 -100 50  0001 C CNN "URL"
-	1    5050 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
 	5500 2700 5500 2450
-Connection ~ 5500 2700
 $Comp
 L Device:C C21
 U 1 1 5CD284E9
@@ -137,7 +116,7 @@ Wire Wire Line
 Connection ~ 7600 3100
 Text Notes 5900 1950 0    89   ~ 0
 Power Regulator
-Text GLabel 5050 1350 0    50   Input ~ 0
+Text GLabel 5050 1600 1    50   Input ~ 0
 12V
 Text Notes 5650 4050 0    89   ~ 0
 Reset Protection
@@ -277,8 +256,8 @@ L Device:Polyfuse F1
 U 1 1 5D777946
 P 7800 2300
 F 0 "F1" H 7888 2346 50  0000 L CNN
-F 1 "0ZRP0050FF1E" H 7888 2255 50  0000 L CNN
-F 2 "Fuse:Fuse_BelFuse_0ZRE0055FF_L14.0mm_W4.1mm" H 7850 2100 50  0001 L CNN
+F 1 "MF-R050" H 7888 2255 50  0000 L CNN
+F 2 "Fuse:Fuse_BelFuse_0ZRE0100FF_L18.7mm_W5.1mm" H 7850 2100 50  0001 L CNN
 F 3 "~" H 7800 2300 50  0001 C CNN
 F 4 "507-2403-ND" H 700 0   50  0001 C CNN "Digikey Part Number"
 F 5 "Bel Fuse" H 700 0   50  0001 C CNN "Manufacturer_Name"
@@ -287,24 +266,6 @@ F 7 "https://www.digikey.com.au/product-detail/en/bel-fuse-inc/0ZRP0050FF1E/507-
 	1    7800 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 2500 5050 2700
-$Comp
-L Device:D_Zener D13
-U 1 1 60723E7D
-P 4500 2900
-F 0 "D13" H 4400 3000 50  0000 L CNN
-F 1 "TP6KE47A" H 4350 2750 50  0000 L CNN
-F 2 "Diode_THT:D_DO-15_P12.70mm_Horizontal" H 4500 2900 50  0001 C CNN
-F 3 "" H 4500 2900 50  0001 C CNN
-F 4 "F6853CT-ND" H 4500 2900 50  0001 C CNN "Digikey Part Number"
-F 5 "Littelfuse" H 4500 2900 50  0001 C CNN "Manufacturer_Name"
-F 6 "TP6KE47A" H 4500 2900 50  0001 C CNN "Manufacturer_Part_Number"
-	1    4500 2900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4500 2700 4500 2750
 Wire Wire Line
 	4500 3100 4500 3050
 $Comp
@@ -324,8 +285,6 @@ Connection ~ 6200 5250
 Wire Wire Line
 	6200 5250 6350 5250
 Wire Wire Line
-	5500 2450 5750 2450
-Wire Wire Line
 	6350 3100 7600 3100
 Connection ~ 7800 2450
 $Comp
@@ -339,8 +298,6 @@ F 3 "" H 7800 1500 50  0001 C CNN
 	1    7800 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 1350 5050 1800
 Wire Wire Line
 	6650 2450 7200 2450
 Connection ~ 7200 2450
@@ -357,11 +314,8 @@ F 3 "~" H 5050 1800 50  0001 C CNN
 	1    5050 1800
 	0    1    1    0   
 $EndComp
-Connection ~ 5050 1800
 Wire Wire Line
-	5050 1800 5050 2000
-Wire Wire Line
-	6350 3100 6350 3350
+	6350 3100 6350 3250
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 637A0D9C
@@ -376,24 +330,8 @@ $EndComp
 Connection ~ 6350 3350
 Wire Wire Line
 	6350 3350 6350 3500
-Text Notes 2800 1400 0    50   ~ 0
+Text Notes 1600 2500 0    50   ~ 0
 12 volt output from Main Relay in Aux board
-$Comp
-L power:PWR_FLAG #FLG0101
-U 1 1 6372DF73
-P 5750 2350
-F 0 "#FLG0101" H 5750 2425 50  0001 C CNN
-F 1 "PWR_FLAG" V 5750 2478 50  0000 L CNN
-F 2 "" H 5750 2350 50  0001 C CNN
-F 3 "~" H 5750 2350 50  0001 C CNN
-	1    5750 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5750 2350 5750 2450
-Connection ~ 5750 2450
-Wire Wire Line
-	5750 2450 6050 2450
 Wire Wire Line
 	7200 1500 7200 2450
 Wire Wire Line
@@ -412,22 +350,121 @@ $EndComp
 Connection ~ 7800 1750
 Wire Wire Line
 	7800 1750 7800 2150
+Text Notes 8100 3000 0    50   ~ 0
+10V
+Text Notes 7350 3000 0    50   ~ 0
+50V
+Text Notes 5200 3000 0    50   ~ 0
+35V
+$Comp
+L Device:D D13
+U 1 1 637EC140
+P 4700 2450
+F 0 "D13" H 4700 2233 50  0000 C CNN
+F 1 "1N5818" H 4700 2324 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 4700 2450 50  0001 C CNN
+F 3 "~" H 4700 2450 50  0001 C CNN
+	1    4700 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Varistor RV1
+U 1 1 637EE630
+P 4500 2900
+F 0 "RV1" V 4600 2850 50  0000 L CNN
+F 1 "ERZ-V14D220" V 4350 2650 50  0000 L CNN
+F 2 "Varistor:RV_Disc_D15.5mm_W4.7mm_P7.5mm" V 4430 2900 50  0001 C CNN
+F 3 "~" H 4500 2900 50  0001 C CNN
+	1    4500 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 2450 0    50   Input ~ 0
+12V-Raw
+Wire Wire Line
+	3800 2450 4500 2450
+Wire Wire Line
+	4850 2450 5050 2450
+Connection ~ 5500 2450
+Wire Wire Line
+	5050 1800 5050 2000
+Connection ~ 5050 2450
+Wire Wire Line
+	5050 2450 5500 2450
+Wire Wire Line
+	5050 2450 5050 2700
+Wire Wire Line
+	4500 2750 4500 2450
+Connection ~ 4500 2450
+Wire Wire Line
+	4500 2450 4550 2450
+Wire Wire Line
+	4800 2000 5050 2000
+Connection ~ 5050 2000
+Wire Wire Line
+	5050 2000 5050 2450
+Wire Wire Line
+	5050 1800 5050 1600
+Connection ~ 5050 1800
+Text GLabel 5050 3250 0    50   Input ~ 0
+SigRtn
+Wire Wire Line
+	6150 3250 6350 3250
+Connection ~ 6350 3250
+Wire Wire Line
+	6350 3250 6350 3350
+$Comp
+L power:VDDA #PWR0106
+U 1 1 63801F19
+P 1650 -250
+F 0 "#PWR0106" H 1650 -400 50  0001 C CNN
+F 1 "VDDA" V 1650 -100 50  0000 L CNN
+F 2 "" H 1650 -250 50  0001 C CNN
+F 3 "" H 1650 -250 50  0001 C CNN
+	1    1650 -250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2450 6050 2450
+Text Notes 3200 2050 0    50   ~ 0
+12 volt test point header socket
 $Comp
 L Connector_Generic:Conn_01x01 J2
 U 1 1 63756211
-P 4350 2000
-F 0 "J2" H 4268 2217 50  0000 C CNN
-F 1 "12V Test" H 4268 2126 50  0000 C CNN
-F 2 "DP1600i:Jumper-Pad" H 4350 2000 50  0001 C CNN
-F 3 "~" H 4350 2000 50  0001 C CNN
-	1    4350 2000
+P 4600 2000
+F 0 "J2" H 4518 2217 50  0000 C CNN
+F 1 "12V Test" H 4518 2126 50  0000 C CNN
+F 2 "DP1600i:Jumper-Pad" H 4600 2000 50  0001 C CNN
+F 3 "~" H 4600 2000 50  0001 C CNN
+	1    4600 2000
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 637F187B
+P 6000 3250
+F 0 "JP2" H 6000 3350 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5900 3100 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 6000 3250 50  0001 C CNN
+F 3 "~" H 6000 3250 50  0001 C CNN
+	1    6000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6380F403
+P 5250 3350
+F 0 "#FLG0101" H 5250 3425 50  0001 C CNN
+F 1 "PWR_FLAG" V 5250 3478 50  0000 L CNN
+F 2 "" H 5250 3350 50  0001 C CNN
+F 3 "~" H 5250 3350 50  0001 C CNN
+	1    5250 3350
+	-1   0    0    1   
+$EndComp
 Wire Wire Line
-	4550 2000 5050 2000
-Connection ~ 5050 2000
+	5050 3250 5250 3250
 Wire Wire Line
-	5050 2000 5050 2200
-Text Notes 2950 2050 0    50   ~ 0
-12 volt test point header socket
+	5250 3350 5250 3250
+Connection ~ 5250 3250
+Wire Wire Line
+	5250 3250 5850 3250
 $EndSCHEMATC
