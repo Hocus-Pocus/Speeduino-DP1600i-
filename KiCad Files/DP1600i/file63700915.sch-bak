@@ -31,17 +31,6 @@ TPS_Sensor
 Text GLabel 7000 4100 2    50   Input ~ 0
 SigRtn
 $Comp
-L power:VDDA #PWR042
-U 1 1 638C6550
-P 6350 4000
-F 0 "#PWR042" H 6350 3850 50  0001 C CNN
-F 1 "VDDA" V 6368 4128 50  0000 L CNN
-F 2 "" H 6350 4000 50  0001 C CNN
-F 3 "" H 6350 4000 50  0001 C CNN
-	1    6350 4000
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR041
 U 1 1 638C6999
 P 6350 3800
@@ -173,8 +162,8 @@ Text Notes 6650 3750 0    50   ~ 0
 Common ground
 Text Notes 6650 3850 0    50   ~ 0
 Common ground
-Text Notes 6700 4050 0    50   ~ 0
-5 volt ADC
+Text Notes 6650 4050 0    50   ~ 0
+5 volt
 Text Notes 7350 4150 0    50   ~ 0
 Sensor ground
 Text Notes 6850 4650 0    50   ~ 0
@@ -651,45 +640,45 @@ NoConn ~ 2450 7400
 Text Notes 1400 7800 2    50   ~ 0
 Proto header 17\n\n\n
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J31
 U 1 1 638F9CEE
 P 1850 2800
-F 0 "J?" V 1850 3100 50  0000 R CNN
+F 0 "J31" V 1850 3100 50  0000 R CNN
 F 1 "Conn_01x04" V 1813 2512 50  0000 R CNN
-F 2 "" H 1850 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1850 2800 50  0001 C CNN
 F 3 "~" H 1850 2800 50  0001 C CNN
 	1    1850 2800
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J30
 U 1 1 638FA1CA
 P 1950 2500
-F 0 "J?" V 1950 2800 50  0000 R CNN
+F 0 "J30" V 1950 2800 50  0000 R CNN
 F 1 "Conn_01x03" V 1913 2312 50  0000 R CNN
-F 2 "" H 1950 2500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1950 2500 50  0001 C CNN
 F 3 "~" H 1950 2500 50  0001 C CNN
 	1    1950 2500
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J29
 U 1 1 638FAFB2
 P 1950 2200
-F 0 "J?" V 1950 2400 50  0000 R CNN
+F 0 "J29" V 1950 2400 50  0000 R CNN
 F 1 "Conn_01x02" V 1913 2012 50  0000 R CNN
-F 2 "" H 1950 2200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1950 2200 50  0001 C CNN
 F 3 "~" H 1950 2200 50  0001 C CNN
 	1    1950 2200
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x01 J28
 U 1 1 638FB880
 P 2050 1900
-F 0 "J?" V 2050 2100 50  0000 R CNN
+F 0 "J28" V 2050 2100 50  0000 R CNN
 F 1 "Conn_01x01" V 2013 1812 50  0000 R CNN
-F 2 "" H 2050 1900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2050 1900 50  0001 C CNN
 F 3 "~" H 2050 1900 50  0001 C CNN
 	1    2050 1900
 	0    -1   1    0   
@@ -704,4 +693,15 @@ NoConn ~ 2050 2600
 NoConn ~ 1950 2600
 NoConn ~ 1850 2600
 NoConn ~ 1750 2600
+$Comp
+L power:VDD #PWR?
+U 1 1 63860120
+P 6350 4000
+F 0 "#PWR?" H 6350 3850 50  0001 C CNN
+F 1 "VDD" V 6365 4128 50  0000 L CNN
+F 2 "" H 6350 4000 50  0001 C CNN
+F 3 "" H 6350 4000 50  0001 C CNN
+	1    6350 4000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
