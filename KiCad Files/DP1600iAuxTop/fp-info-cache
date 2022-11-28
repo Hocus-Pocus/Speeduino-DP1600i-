@@ -1,4 +1,4 @@
-19413655251124302
+19420333547438336
 BPEM488CWaux
 A4988StepStick
 Through hole straight pin header, 1x08, 2.54mm pitch, single row
@@ -398,6 +398,13 @@ Phoenix_1730010
 0
 2
 2
+Buggly Gruesome AuxTop
+TO-220-3_Vertical_Wide
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
+0
+3
+3
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -48881,6 +48888,13 @@ Phoenix_1715190
 6
 6
 DP1600iAuxTop
+Phoenix_1715190_Rt
+
+
+0
+6
+6
+DP1600iAuxTop
 Phoenix_1729063
 
 
@@ -48888,7 +48902,21 @@ Phoenix_1729063
 7
 7
 DP1600iAuxTop
+Phoenix_1729063_Rt
+
+
+0
+7
+7
+DP1600iAuxTop
 Phoenix_1729076
+
+
+0
+8
+8
+DP1600iAuxTop
+Phoenix_1729076_Rt
 
 
 0

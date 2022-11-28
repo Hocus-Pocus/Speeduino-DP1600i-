@@ -211,15 +211,15 @@ Text GLabel 7800 950  3    50   Input ~ 0
 F6-out
 Text GLabel 8050 950  3    50   Input ~ 0
 F7-out
-Text Notes 7100 1850 1    50   ~ 0
+Text Notes 7850 1850 1    50   ~ 0
 Inj1 & Inj2 +
-Text Notes 7350 1850 1    50   ~ 0
+Text Notes 7600 1850 1    50   ~ 0
 Inj3 & Inj4 +
-Text Notes 7600 1900 1    50   ~ 0
+Text Notes 8100 1900 1    50   ~ 0
 Ign1 & Ign2 +
-Text Notes 7850 1900 1    50   ~ 0
+Text Notes 7350 1900 1    50   ~ 0
 Ign3 & Ign4 +
-Text Notes 8100 2350 1    50   ~ 0
+Text Notes 8600 2350 1    50   ~ 0
 WB & Tach & PWM Idle +
 Wire Wire Line
 	7050 650  6900 650 
@@ -956,7 +956,7 @@ L Simulation_SPICE:DIODE D26
 U 1 1 63A43D73
 P 5400 4400
 F 0 "D26" H 5400 4500 50  0000 C CNN
-F 1 "DIODE" H 5400 4300 50  0000 C CNN
+F 1 "1N4001" H 5400 4300 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5400 4400 50  0001 C CNN
 F 3 "~" H 5400 4400 50  0001 C CNN
 F 4 "Y" H 5400 4400 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -969,7 +969,7 @@ L Simulation_SPICE:DIODE D2
 U 1 1 63A43D7B
 P 2400 4200
 F 0 "D2" H 2400 4300 50  0000 C CNN
-F 1 "DIODE" H 2400 4100 50  0000 C CNN
+F 1 "1N4001" H 2400 4100 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2400 4200 50  0001 C CNN
 F 3 "~" H 2400 4200 50  0001 C CNN
 F 4 "Y" H 2400 4200 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -982,7 +982,7 @@ L Simulation_SPICE:DIODE D22
 U 1 1 63A43D89
 P 5300 3950
 F 0 "D22" H 5300 4050 50  0000 C CNN
-F 1 "DIODE" H 5300 3850 50  0000 C CNN
+F 1 "1N4001" H 5300 3850 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5300 3950 50  0001 C CNN
 F 3 "~" H 5300 3950 50  0001 C CNN
 F 4 "Y" H 5300 3950 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1006,7 +1006,7 @@ L Simulation_SPICE:DIODE D28
 U 1 1 63A43D97
 P 5500 5400
 F 0 "D28" H 5500 5500 50  0000 C CNN
-F 1 "DIODE" H 5500 5300 50  0000 C CNN
+F 1 "1N4001" H 5500 5300 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5500 5400 50  0001 C CNN
 F 3 "~" H 5500 5400 50  0001 C CNN
 F 4 "Y" H 5500 5400 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1021,7 +1021,7 @@ L Simulation_SPICE:DIODE D23
 U 1 1 63A43DA6
 P 5300 4950
 F 0 "D23" H 5300 5050 50  0000 C CNN
-F 1 "DIODE" H 5300 4850 50  0000 C CNN
+F 1 "1N4001" H 5300 4850 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5300 4950 50  0001 C CNN
 F 3 "~" H 5300 4950 50  0001 C CNN
 F 4 "Y" H 5300 4950 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1043,7 +1043,7 @@ L Simulation_SPICE:DIODE D27
 U 1 1 63A43DB3
 P 5450 6500
 F 0 "D27" H 5450 6600 50  0000 C CNN
-F 1 "DIODE" H 5450 6400 50  0000 C CNN
+F 1 "1N4001" H 5450 6400 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5450 6500 50  0001 C CNN
 F 3 "~" H 5450 6500 50  0001 C CNN
 F 4 "Y" H 5450 6500 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1058,7 +1058,7 @@ L Simulation_SPICE:DIODE D24
 U 1 1 63A43DC2
 P 5300 6050
 F 0 "D24" H 5300 6150 50  0000 C CNN
-F 1 "DIODE" H 5300 5950 50  0000 C CNN
+F 1 "1N4001" H 5300 5950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5300 6050 50  0001 C CNN
 F 3 "~" H 5300 6050 50  0001 C CNN
 F 4 "Y" H 5300 6050 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1071,7 +1071,7 @@ L Simulation_SPICE:DIODE D29
 U 1 1 63A43DCA
 P 5500 7500
 F 0 "D29" H 5500 7600 50  0000 C CNN
-F 1 "DIODE" H 5500 7400 50  0000 C CNN
+F 1 "1N4001" H 5500 7400 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5500 7500 50  0001 C CNN
 F 3 "~" H 5500 7500 50  0001 C CNN
 F 4 "Y" H 5500 7500 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1086,7 +1086,7 @@ L Simulation_SPICE:DIODE D25
 U 1 1 63A43DD9
 P 5300 7050
 F 0 "D25" H 5300 7150 50  0000 C CNN
-F 1 "DIODE" H 5300 6950 50  0000 C CNN
+F 1 "1N4001" H 5300 6950 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 5300 7050 50  0001 C CNN
 F 3 "~" H 5300 7050 50  0001 C CNN
 F 4 "Y" H 5300 7050 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1099,7 +1099,7 @@ L Simulation_SPICE:DIODE D8
 U 1 1 63A43DE1
 P 2450 4650
 F 0 "D8" H 2450 4750 50  0000 C CNN
-F 1 "DIODE" H 2450 4550 50  0000 C CNN
+F 1 "1N4001" H 2450 4550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2450 4650 50  0001 C CNN
 F 3 "~" H 2450 4650 50  0001 C CNN
 F 4 "Y" H 2450 4650 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1116,7 +1116,7 @@ L Simulation_SPICE:DIODE D9
 U 1 1 63A43DF1
 P 2450 5700
 F 0 "D9" H 2450 5800 50  0000 C CNN
-F 1 "DIODE" H 2450 5600 50  0000 C CNN
+F 1 "1N4001" H 2450 5600 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2450 5700 50  0001 C CNN
 F 3 "~" H 2450 5700 50  0001 C CNN
 F 4 "Y" H 2450 5700 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1133,7 +1133,7 @@ L Simulation_SPICE:DIODE D13
 U 1 1 63A43E21
 P 2500 3850
 F 0 "D13" H 2500 3950 50  0000 C CNN
-F 1 "DIODE" H 2500 3750 50  0000 C CNN
+F 1 "1N4001" H 2500 3750 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2500 3850 50  0001 C CNN
 F 3 "~" H 2500 3850 50  0001 C CNN
 F 4 "Y" H 2500 3850 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1150,7 +1150,7 @@ L Simulation_SPICE:DIODE D12
 U 1 1 63A43E31
 P 2500 2950
 F 0 "D12" H 2500 3050 50  0000 C CNN
-F 1 "DIODE" H 2500 2850 50  0000 C CNN
+F 1 "1N4001" H 2500 2850 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2500 2950 50  0001 C CNN
 F 3 "~" H 2500 2950 50  0001 C CNN
 F 4 "Y" H 2500 2950 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1167,7 +1167,7 @@ L Simulation_SPICE:DIODE D11
 U 1 1 63A43E41
 P 2500 2100
 F 0 "D11" H 2500 2200 50  0000 C CNN
-F 1 "DIODE" H 2500 2000 50  0000 C CNN
+F 1 "1N4001" H 2500 2000 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2500 2100 50  0001 C CNN
 F 3 "~" H 2500 2100 50  0001 C CNN
 F 4 "Y" H 2500 2100 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1184,7 +1184,7 @@ L Simulation_SPICE:DIODE D10
 U 1 1 63A43E51
 P 2500 1200
 F 0 "D10" H 2500 1300 50  0000 C CNN
-F 1 "DIODE" H 2500 1100 50  0000 C CNN
+F 1 "1N4001" H 2500 1100 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2500 1200 50  0001 C CNN
 F 3 "~" H 2500 1200 50  0001 C CNN
 F 4 "Y" H 2500 1200 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1201,7 +1201,7 @@ L Simulation_SPICE:DIODE D4
 U 1 1 63A43E61
 P 2450 750
 F 0 "D4" H 2450 850 50  0000 C CNN
-F 1 "DIODE" H 2450 650 50  0000 C CNN
+F 1 "1N4001" H 2450 650 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2450 750 50  0001 C CNN
 F 3 "~" H 2450 750 50  0001 C CNN
 F 4 "Y" H 2450 750 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1214,7 +1214,7 @@ L Simulation_SPICE:DIODE D5
 U 1 1 63A43E69
 P 2450 1650
 F 0 "D5" H 2450 1750 50  0000 C CNN
-F 1 "DIODE" H 2450 1550 50  0000 C CNN
+F 1 "1N4001" H 2450 1550 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2450 1650 50  0001 C CNN
 F 3 "~" H 2450 1650 50  0001 C CNN
 F 4 "Y" H 2450 1650 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1240,7 +1240,7 @@ L Simulation_SPICE:DIODE D6
 U 1 1 63A43E81
 P 2450 2500
 F 0 "D6" H 2450 2600 50  0000 C CNN
-F 1 "DIODE" H 2450 2400 50  0000 C CNN
+F 1 "1N4001" H 2450 2400 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2450 2500 50  0001 C CNN
 F 3 "~" H 2450 2500 50  0001 C CNN
 F 4 "Y" H 2450 2500 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1253,7 +1253,7 @@ L Simulation_SPICE:DIODE D7
 U 1 1 63A43E91
 P 2450 3400
 F 0 "D7" H 2450 3500 50  0000 C CNN
-F 1 "DIODE" H 2450 3300 50  0000 C CNN
+F 1 "1N4001" H 2450 3300 50  0000 C CNN
 F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2450 3400 50  0001 C CNN
 F 3 "~" H 2450 3400 50  0001 C CNN
 F 4 "Y" H 2450 3400 50  0001 L CNN "Spice_Netlist_Enabled"
@@ -1435,32 +1435,21 @@ Connection ~ 7800 650
 Wire Wire Line
 	7800 650  8050 650 
 $Comp
-L Connector:Screw_Terminal_01x06 J28
-U 1 1 639D28BB
-P 9300 2600
-F 0 "J28" V 9400 2550 50  0000 L CNN
-F 1 "Screw_Terminal_01x06" V 9500 2200 50  0000 L CNN
-F 2 "DP1600iAuxTop:Phoenix_1715190" H 9300 2600 50  0001 C CNN
-F 3 "~" H 9300 2600 50  0001 C CNN
-	1    9300 2600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x08 J27
+L Connector:Screw_Terminal_01x08 J31
 U 1 1 639D53E1
 P 9300 1700
-F 0 "J27" V 9400 1650 50  0000 L CNN
+F 0 "J31" V 9400 1650 50  0000 L CNN
 F 1 "Screw_Terminal_01x08" V 9600 1250 50  0000 L CNN
-F 2 "DP1600iAuxTop:Phoenix_1729076" H 9300 1700 50  0001 C CNN
+F 2 "DP1600iAuxTop:Phoenix_1729076_Rt" H 9300 1700 50  0001 C CNN
 F 3 "~" H 9300 1700 50  0001 C CNN
 	1    9300 1700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J26
+L Connector:Screw_Terminal_01x02 J30
 U 1 1 639D8950
 P 9300 1100
-F 0 "J26" V 9400 1000 50  0000 L CNN
+F 0 "J30" V 9400 1000 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" V 9500 700 50  0000 L CNN
 F 2 "DP1600iAuxTop:Phoenix_1714955" H 9300 1100 50  0001 C CNN
 F 3 "~" H 9300 1100 50  0001 C CNN
@@ -1471,19 +1460,19 @@ Text GLabel 9600 1200 2    50   Input ~ 0
 Bat+
 Text GLabel 9600 1400 2    50   Input ~ 0
 Bat+s
-Text GLabel 9600 1500 2    50   Input ~ 0
+Text GLabel 9650 2700 2    50   Input ~ 0
 Tachometer
-Text GLabel 9600 1600 2    50   Input ~ 0
-F7-out
-Text GLabel 9600 2000 2    50   Input ~ 0
+Text GLabel 9600 1500 2    50   Input ~ 0
+F9-out
+Text GLabel 9650 2900 2    50   Input ~ 0
 CKP+
-Text GLabel 9600 2100 2    50   Input ~ 0
+Text GLabel 9650 3000 2    50   Input ~ 0
 CKP-
 $Comp
-L Connector:Screw_Terminal_01x02 J31
+L Connector:Screw_Terminal_01x02 J35
 U 1 1 637CA68F
 P 10750 5350
-F 0 "J31" V 10850 5250 50  0000 L CNN
+F 0 "J35" V 10850 5250 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" V 10950 4950 50  0000 L CNN
 F 2 "DP1600iAuxTop:Phoenix_1730010" H 10750 5350 50  0001 C CNN
 F 3 "~" H 10750 5350 50  0001 C CNN
@@ -1497,12 +1486,12 @@ CMP-
 $Comp
 L power:GND #PWR018
 U 1 1 637CE703
-P 9600 1700
-F 0 "#PWR018" H 9600 1450 50  0001 C CNN
-F 1 "GND" V 9600 1500 50  0000 C CNN
-F 2 "" H 9600 1700 50  0001 C CNN
-F 3 "" H 9600 1700 50  0001 C CNN
-	1    9600 1700
+P 9650 2800
+F 0 "#PWR018" H 9650 2550 50  0001 C CNN
+F 1 "GND" V 9650 2600 50  0000 C CNN
+F 2 "" H 9650 2800 50  0001 C CNN
+F 3 "" H 9650 2800 50  0001 C CNN
+	1    9650 2800
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
@@ -1525,9 +1514,9 @@ Text Notes 10450 1250 2    50   ~ 0
 Battery positive
 Text Notes 11000 1450 2    50   ~ 0
 Battery switched start & run
-Text Notes 10800 1550 2    50   ~ 0
+Text Notes 10850 2750 2    50   ~ 0
 Tachometer signal
-Text Notes 10750 1650 2    50   ~ 0
+Text Notes 10750 1550 2    50   ~ 0
 Tach & WB & Idle +
 Text GLabel 8300 950  3    50   Input ~ 0
 F8-out
@@ -1547,82 +1536,82 @@ Fuel Pump +
 Wire Wire Line
 	8050 650  8300 650 
 Connection ~ 8050 650 
-Text GLabel 9600 1900 2    50   Input ~ 0
+Text GLabel 9600 1700 2    50   Input ~ 0
 F8-out
 Wire Wire Line
 	9500 1800 9600 1800
-Text Notes 10450 1950 2    50   ~ 0
+Text Notes 10450 1750 2    50   ~ 0
 Fuel Pump +
 Wire Wire Line
 	10450 5350 10550 5350
 Wire Wire Line
 	10450 5450 10550 5450
-Text GLabel 9650 2400 2    50   Input ~ 0
-F3-out
-Text GLabel 9650 2700 2    50   Input ~ 0
-F5-out
+Text GLabel 9600 1900 2    50   Input ~ 0
+F6-out
+Text GLabel 9600 1800 2    50   Input ~ 0
+F7-out
 $Comp
-L Connector:Screw_Terminal_01x06 J30
+L Connector:Screw_Terminal_01x06 J34
 U 1 1 63AB31ED
 P 10750 4850
-F 0 "J30" V 10850 4800 50  0000 L CNN
+F 0 "J34" V 10850 4800 50  0000 L CNN
 F 1 "Screw_Terminal_01x06" V 11050 4450 50  0000 L CNN
 F 2 "DP1600iAuxTop:Phoenix_1715190" H 10750 4850 50  0001 C CNN
 F 3 "~" H 10750 4850 50  0001 C CNN
 	1    10750 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 9650 2500 2    60   Input ~ 0
+Text GLabel 9650 2400 2    60   Input ~ 0
 D8-out
-Text GLabel 9650 2600 2    60   Input ~ 0
+Text GLabel 9650 2500 2    60   Input ~ 0
 D9-out
-Text Notes 10000 2450 0    50   ~ 0
+Text Notes 9950 1950 0    50   ~ 0
 Inj1 & Inj2 +
-Text Notes 10250 2550 2    50   ~ 0
+Text Notes 10250 2450 2    50   ~ 0
 Inj1
-Text Notes 10250 2650 2    50   ~ 0
+Text Notes 10250 2550 2    50   ~ 0
 Inj2
-Text Notes 10000 2750 0    50   ~ 0
+Text Notes 9950 1850 0    50   ~ 0
 Ign1 & Ign2 +
-Text GLabel 9650 2800 2    60   Input ~ 0
+Text GLabel 9600 2000 2    60   Input ~ 0
 D50-out
-Text GLabel 9650 2900 2    60   Input ~ 0
+Text GLabel 9600 2100 2    60   Input ~ 0
 D51-out
-Text Notes 10300 2850 2    50   ~ 0
+Text Notes 10250 2050 2    50   ~ 0
 Ign1
-Text Notes 10300 2950 2    50   ~ 0
+Text Notes 10250 2150 2    50   ~ 0
 Ign2
 Text GLabel 10400 4650 0    50   Input ~ 0
-F3-out
-Text GLabel 10400 4950 0    50   Input ~ 0
 F5-out
-Text GLabel 10400 4750 0    60   Input ~ 0
-D10-out
-Text GLabel 10400 4850 0    60   Input ~ 0
-D11-out
-Text Notes 9900 4700 2    50   ~ 0
-Inj3 & Inj4 +
-Text Notes 9750 4800 0    50   ~ 0
-Inj3
-Text Notes 9750 4900 0    50   ~ 0
-Inj4
-Text Notes 9950 5000 2    50   ~ 0
-Ign3 & Ign4 +
+Text GLabel 10350 4450 0    50   Input ~ 0
+F4-out
 Text GLabel 10400 5050 0    60   Input ~ 0
-D52-out
+D10-out
 Text GLabel 10400 5150 0    60   Input ~ 0
-D53-out
+D11-out
+Text Notes 10050 4700 2    50   ~ 0
+Inj3 & Inj4 +
 Text Notes 9750 5100 0    50   ~ 0
-Ign3
+Inj3
 Text Notes 9750 5200 0    50   ~ 0
+Inj4
+Text Notes 10000 4500 2    50   ~ 0
+Ign3 & Ign4 +
+Text GLabel 10400 4850 0    60   Input ~ 0
+D52-out
+Text GLabel 10400 4950 0    60   Input ~ 0
+D53-out
+Text Notes 9750 4900 0    50   ~ 0
+Ign3
+Text Notes 9750 5000 0    50   ~ 0
 Ign4\n
-Text GLabel 10250 5650 0    50   Input ~ 0
-IAT-Sensor
-Text GLabel 10250 5750 0    50   Input ~ 0
-CLT-Sensor
 Text GLabel 10250 5850 0    50   Input ~ 0
-TPS-Sensor
+IAT-Sensor
+Text GLabel 10250 5950 0    50   Input ~ 0
+CLT-Sensor
 Text GLabel 10250 6050 0    50   Input ~ 0
+TPS-Sensor
+Text GLabel 10250 5750 0    50   Input ~ 0
 SigRtn
 Text GLabel 10250 6150 0    50   Input ~ 0
 O2-Sensor
@@ -1664,23 +1653,23 @@ Wire Wire Line
 	9650 2500 9500 2500
 Wire Wire Line
 	9650 2400 9500 2400
-Text Notes 9600 5700 0    50   ~ 0
+Text Notes 9600 5900 0    50   ~ 0
 IAT
-Text Notes 9600 5800 0    50   ~ 0
+Text Notes 9600 6000 0    50   ~ 0
 CLT
-Text Notes 9450 6100 0    50   ~ 0
+Text Notes 9600 5800 0    50   ~ 0
 ADC Gnd
-Text Notes 9550 5900 0    50   ~ 0
+Text Notes 9550 6100 0    50   ~ 0
 TPS
-Text Notes 9450 6000 0    50   ~ 0
+Text Notes 9600 5700 0    50   ~ 0
 ADC 5V
 Text Notes 9450 6200 0    50   ~ 0
 WB O2
 Text Notes 9300 6300 0    50   ~ 0
 Spare ADC
-Text Notes 10250 2050 2    50   ~ 0
+Text Notes 10300 2950 2    50   ~ 0
 CKP VR+
-Text Notes 10250 2150 2    50   ~ 0
+Text Notes 10300 3050 2    50   ~ 0
 CKP VR-
 Text Notes 9750 5500 0    50   ~ 0
 CMP VR-
@@ -1702,13 +1691,13 @@ $EndComp
 Wire Wire Line
 	8300 650  8550 650 
 Connection ~ 8300 650 
-Text Notes 8600 2450 1    50   ~ 0
+Text Notes 7100 2450 1    50   ~ 0
 Spare High Current Output +
 $Comp
-L Connector:Screw_Terminal_01x02 J29
+L Connector:Screw_Terminal_01x02 J33
 U 1 1 64373309
 P 10750 4350
-F 0 "J29" V 10850 4250 50  0000 L CNN
+F 0 "J33" V 10850 4250 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" V 10950 3950 50  0000 L CNN
 F 2 "DP1600iAuxTop:Phoenix_1730010" H 10750 4350 50  0001 C CNN
 F 3 "~" H 10750 4350 50  0001 C CNN
@@ -1716,52 +1705,52 @@ F 3 "~" H 10750 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 10350 4350 0    50   Input ~ 0
-F9-out
-Text GLabel 10350 4450 0    60   Input ~ 0
+F3-out
+Text GLabel 10400 4750 0    60   Input ~ 0
 D13-out
-Text Notes 9950 4400 2    50   ~ 0
+Text Notes 10000 4400 2    50   ~ 0
 Spare High Current Output +
-Text Notes 9900 4500 2    50   ~ 0
+Text Notes 9950 4800 2    50   ~ 0
 Spare High Current Output -
 Text GLabel 3050 750  2    50   Input ~ 0
-F3-out
+F6-out
 Text GLabel 2700 1200 2    50   Input ~ 0
-F3-out
+F6-out
 Text GLabel 3050 1650 2    50   Input ~ 0
-F3-out
+F6-out
 Text GLabel 2700 2100 2    50   Input ~ 0
-F3-out
+F6-out
 Text GLabel 3050 2500 2    50   Input ~ 0
-F4-out
+F5-out
 Text GLabel 2700 2950 2    50   Input ~ 0
-F4-out
+F5-out
 Text GLabel 3050 3400 2    50   Input ~ 0
-F4-out
+F5-out
 Text GLabel 2700 3850 2    50   Input ~ 0
-F4-out
+F5-out
 Text GLabel 5850 3950 2    50   Input ~ 0
-F5-out
+F7-out
 Text GLabel 5600 4400 2    50   Input ~ 0
-F5-out
+F7-out
 Text GLabel 5850 4950 2    50   Input ~ 0
-F5-out
+F7-out
 Text GLabel 5700 5400 2    50   Input ~ 0
-F5-out
+F7-out
 Text GLabel 5850 6050 2    50   Input ~ 0
-F6-out
+F4-out
 Text GLabel 5650 6500 2    50   Input ~ 0
-F6-out
+F4-out
 Text GLabel 5850 7050 2    50   Input ~ 0
-F6-out
+F4-out
 Text GLabel 5700 7500 2    50   Input ~ 0
-F6-out
+F4-out
 $Comp
 L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA67A
 P 8000 4600
 AR Path="/63777FB0/63ACA67A" Ref="J?"  Part="1" 
-AR Path="/63ACA67A" Ref="J8"  Part="1" 
-F 0 "J8" H 8100 4600 50  0000 L CNN
+AR Path="/63ACA67A" Ref="J12"  Part="1" 
+F 0 "J12" H 8100 4600 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 4600 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 4600 50  0001 C CNN
 F 3 "~" H 8000 4600 50  0001 C CNN
@@ -1773,8 +1762,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA680
 P 8000 4700
 AR Path="/63777FB0/63ACA680" Ref="J?"  Part="1" 
-AR Path="/63ACA680" Ref="J9"  Part="1" 
-F 0 "J9" H 8100 4700 50  0000 L CNN
+AR Path="/63ACA680" Ref="J13"  Part="1" 
+F 0 "J13" H 8100 4700 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 4700 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 4700 50  0001 C CNN
 F 3 "~" H 8000 4700 50  0001 C CNN
@@ -1786,8 +1775,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA686
 P 8000 4800
 AR Path="/63777FB0/63ACA686" Ref="J?"  Part="1" 
-AR Path="/63ACA686" Ref="J10"  Part="1" 
-F 0 "J10" H 8100 4800 50  0000 L CNN
+AR Path="/63ACA686" Ref="J14"  Part="1" 
+F 0 "J14" H 8100 4800 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 4800 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 4800 50  0001 C CNN
 F 3 "~" H 8000 4800 50  0001 C CNN
@@ -1796,24 +1785,11 @@ F 3 "~" H 8000 4800 50  0001 C CNN
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J?
-U 1 1 63ACA68C
-P 8000 4900
-AR Path="/63777FB0/63ACA68C" Ref="J?"  Part="1" 
-AR Path="/63ACA68C" Ref="J11"  Part="1" 
-F 0 "J11" H 8100 4900 50  0000 L CNN
-F 1 "Conn_01x01" H 8300 4900 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 4900 50  0001 C CNN
-F 3 "~" H 8000 4900 50  0001 C CNN
-	1    8000 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA692
 P 8000 5000
 AR Path="/63777FB0/63ACA692" Ref="J?"  Part="1" 
-AR Path="/63ACA692" Ref="J12"  Part="1" 
-F 0 "J12" H 8100 5000 50  0000 L CNN
+AR Path="/63ACA692" Ref="J16"  Part="1" 
+F 0 "J16" H 8100 5000 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 5000 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 5000 50  0001 C CNN
 F 3 "~" H 8000 5000 50  0001 C CNN
@@ -1825,8 +1801,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA698
 P 8000 5100
 AR Path="/63777FB0/63ACA698" Ref="J?"  Part="1" 
-AR Path="/63ACA698" Ref="J13"  Part="1" 
-F 0 "J13" H 8100 5100 50  0000 L CNN
+AR Path="/63ACA698" Ref="J17"  Part="1" 
+F 0 "J17" H 8100 5100 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 5100 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 5100 50  0001 C CNN
 F 3 "~" H 8000 5100 50  0001 C CNN
@@ -1838,8 +1814,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA69E
 P 8000 5200
 AR Path="/63777FB0/63ACA69E" Ref="J?"  Part="1" 
-AR Path="/63ACA69E" Ref="J14"  Part="1" 
-F 0 "J14" H 8100 5200 50  0000 L CNN
+AR Path="/63ACA69E" Ref="J18"  Part="1" 
+F 0 "J18" H 8100 5200 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 5200 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 5200 50  0001 C CNN
 F 3 "~" H 8000 5200 50  0001 C CNN
@@ -1851,8 +1827,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA6A4
 P 8000 5300
 AR Path="/63777FB0/63ACA6A4" Ref="J?"  Part="1" 
-AR Path="/63ACA6A4" Ref="J15"  Part="1" 
-F 0 "J15" H 8100 5300 50  0000 L CNN
+AR Path="/63ACA6A4" Ref="J19"  Part="1" 
+F 0 "J19" H 8100 5300 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 5300 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 5300 50  0001 C CNN
 F 3 "~" H 8000 5300 50  0001 C CNN
@@ -1861,89 +1837,11 @@ F 3 "~" H 8000 5300 50  0001 C CNN
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J?
-U 1 1 63ACA6B6
-P 8000 5800
-AR Path="/63777FB0/63ACA6B6" Ref="J?"  Part="1" 
-AR Path="/63ACA6B6" Ref="J20"  Part="1" 
-F 0 "J20" H 8100 5800 50  0000 L CNN
-F 1 "Conn_01x01" H 8300 5800 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 5800 50  0001 C CNN
-F 3 "~" H 8000 5800 50  0001 C CNN
-	1    8000 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 63ACA6BC
-P 8000 5900
-AR Path="/63777FB0/63ACA6BC" Ref="J?"  Part="1" 
-AR Path="/63ACA6BC" Ref="J21"  Part="1" 
-F 0 "J21" H 8100 5900 50  0000 L CNN
-F 1 "Conn_01x01" H 8300 5900 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 5900 50  0001 C CNN
-F 3 "~" H 8000 5900 50  0001 C CNN
-	1    8000 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 63ACA6C2
-P 8000 6000
-AR Path="/63777FB0/63ACA6C2" Ref="J?"  Part="1" 
-AR Path="/63ACA6C2" Ref="J22"  Part="1" 
-F 0 "J22" H 8100 6000 50  0000 L CNN
-F 1 "Conn_01x01" H 8300 6000 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 6000 50  0001 C CNN
-F 3 "~" H 8000 6000 50  0001 C CNN
-	1    8000 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 63ACA6C8
-P 8000 6100
-AR Path="/63777FB0/63ACA6C8" Ref="J?"  Part="1" 
-AR Path="/63ACA6C8" Ref="J23"  Part="1" 
-F 0 "J23" H 8100 6100 50  0000 L CNN
-F 1 "Conn_01x01" H 8300 6100 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 6100 50  0001 C CNN
-F 3 "~" H 8000 6100 50  0001 C CNN
-	1    8000 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 63ACA6CE
-P 8000 6200
-AR Path="/63777FB0/63ACA6CE" Ref="J?"  Part="1" 
-AR Path="/63ACA6CE" Ref="J24"  Part="1" 
-F 0 "J24" H 8100 6200 50  0000 L CNN
-F 1 "Conn_01x01" H 8300 6200 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 6200 50  0001 C CNN
-F 3 "~" H 8000 6200 50  0001 C CNN
-	1    8000 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 63ACA6D4
-P 8000 6300
-AR Path="/63777FB0/63ACA6D4" Ref="J?"  Part="1" 
-AR Path="/63ACA6D4" Ref="J25"  Part="1" 
-F 0 "J25" H 8100 6300 50  0000 L CNN
-F 1 "Conn_01x01" H 8300 6300 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 6300 50  0001 C CNN
-F 3 "~" H 8000 6300 50  0001 C CNN
-	1    8000 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA6DA
 P 8000 4300
 AR Path="/63777FB0/63ACA6DA" Ref="J?"  Part="1" 
-AR Path="/63ACA6DA" Ref="J5"  Part="1" 
-F 0 "J5" H 8100 4300 50  0000 L CNN
+AR Path="/63ACA6DA" Ref="J9"  Part="1" 
+F 0 "J9" H 8100 4300 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 4300 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 4300 50  0001 C CNN
 F 3 "~" H 8000 4300 50  0001 C CNN
@@ -1955,8 +1853,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA6E0
 P 8000 4400
 AR Path="/63777FB0/63ACA6E0" Ref="J?"  Part="1" 
-AR Path="/63ACA6E0" Ref="J6"  Part="1" 
-F 0 "J6" H 8100 4400 50  0000 L CNN
+AR Path="/63ACA6E0" Ref="J10"  Part="1" 
+F 0 "J10" H 8100 4400 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 4400 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 4400 50  0001 C CNN
 F 3 "~" H 8000 4400 50  0001 C CNN
@@ -1968,23 +1866,23 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA6E6
 P 8000 4500
 AR Path="/63777FB0/63ACA6E6" Ref="J?"  Part="1" 
-AR Path="/63ACA6E6" Ref="J7"  Part="1" 
-F 0 "J7" H 8100 4500 50  0000 L CNN
+AR Path="/63ACA6E6" Ref="J11"  Part="1" 
+F 0 "J11" H 8100 4500 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 4500 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 4500 50  0001 C CNN
 F 3 "~" H 8000 4500 50  0001 C CNN
 	1    8000 4500
 	1    0    0    -1  
 $EndComp
-Text GLabel 7800 6300 0    50   Input ~ 0
-IAT-Sensor
-Text GLabel 7800 6200 0    50   Input ~ 0
-CLT-Sensor
-Text GLabel 7800 6100 0    50   Input ~ 0
-O2-Sensor
-Text GLabel 7800 6000 0    50   Input ~ 0
-TPS-Sensor
 Text GLabel 7800 5900 0    50   Input ~ 0
+IAT-Sensor
+Text GLabel 7800 6000 0    50   Input ~ 0
+CLT-Sensor
+Text GLabel 7800 6200 0    50   Input ~ 0
+O2-Sensor
+Text GLabel 7800 6100 0    50   Input ~ 0
+TPS-Sensor
+Text GLabel 7800 6300 0    50   Input ~ 0
 Spare-ADC
 Text GLabel 7800 5800 0    50   Input ~ 0
 SigRtn
@@ -1996,8 +1894,6 @@ Text GLabel 7800 5100 0    50   Input ~ 0
 D51-control
 Text GLabel 7800 5000 0    50   Input ~ 0
 D50-control
-Text GLabel 7800 4900 0    50   Input ~ 0
-D49-control
 Text GLabel 7800 4800 0    50   Input ~ 0
 D48-control
 Text GLabel 7800 4700 0    50   Input ~ 0
@@ -2019,8 +1915,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA701
 P 8000 4200
 AR Path="/63777FB0/63ACA701" Ref="J?"  Part="1" 
-AR Path="/63ACA701" Ref="J4"  Part="1" 
-F 0 "J4" H 8100 4200 50  0000 L CNN
+AR Path="/63ACA701" Ref="J8"  Part="1" 
+F 0 "J8" H 8100 4200 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 4200 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 4200 50  0001 C CNN
 F 3 "~" H 8000 4200 50  0001 C CNN
@@ -2043,8 +1939,6 @@ Text Notes 6250 4750 0    50   ~ 0
 Spare high current output 
 Text Notes 6600 4850 0    50   ~ 0
 ASD relay control
-Text Notes 6550 4950 0    50   ~ 0
-Tachometer signal
 Text Notes 7100 5050 0    50   ~ 0
 Ign1
 Text Notes 7100 5150 0    50   ~ 0
@@ -2055,23 +1949,23 @@ Text Notes 7050 5350 0    50   ~ 0
 Ign4
 Text Notes 6950 5850 0    50   ~ 0
 Sensor ground
-Text Notes 6900 5950 0    50   ~ 0
+Text Notes 6900 6350 0    50   ~ 0
 Spare ADC
-Text Notes 6350 6050 0    50   ~ 0
+Text Notes 6350 6150 0    50   ~ 0
 Throttle Position Sensor
-Text Notes 6450 6150 0    50   ~ 0
+Text Notes 6500 6250 0    50   ~ 0
 Wide Band O2 sensor
-Text Notes 6300 6250 0    50   ~ 0
+Text Notes 6300 6050 0    50   ~ 0
 Cylinder head temperaure
-Text Notes 6500 6350 0    50   ~ 0
+Text Notes 6500 5950 0    50   ~ 0
 Inlet Air Temperature
 $Comp
 L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA722
 P 8000 5400
 AR Path="/63777FB0/63ACA722" Ref="J?"  Part="1" 
-AR Path="/63ACA722" Ref="J16"  Part="1" 
-F 0 "J16" H 8100 5400 50  0000 L CNN
+AR Path="/63ACA722" Ref="J20"  Part="1" 
+F 0 "J20" H 8100 5400 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 5400 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 5400 50  0001 C CNN
 F 3 "~" H 8000 5400 50  0001 C CNN
@@ -2083,8 +1977,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA728
 P 8000 5500
 AR Path="/63777FB0/63ACA728" Ref="J?"  Part="1" 
-AR Path="/63ACA728" Ref="J17"  Part="1" 
-F 0 "J17" H 8100 5500 50  0000 L CNN
+AR Path="/63ACA728" Ref="J21"  Part="1" 
+F 0 "J21" H 8100 5500 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 5500 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 5500 50  0001 C CNN
 F 3 "~" H 8000 5500 50  0001 C CNN
@@ -2096,25 +1990,12 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA72E
 P 8000 5600
 AR Path="/63777FB0/63ACA72E" Ref="J?"  Part="1" 
-AR Path="/63ACA72E" Ref="J18"  Part="1" 
-F 0 "J18" H 8100 5600 50  0000 L CNN
+AR Path="/63ACA72E" Ref="J22"  Part="1" 
+F 0 "J22" H 8100 5600 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 5600 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 5600 50  0001 C CNN
 F 3 "~" H 8000 5600 50  0001 C CNN
 	1    8000 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J?
-U 1 1 63ACA734
-P 8000 5700
-AR Path="/63777FB0/63ACA734" Ref="J?"  Part="1" 
-AR Path="/63ACA734" Ref="J19"  Part="1" 
-F 0 "J19" H 8100 5700 50  0000 L CNN
-F 1 "Conn_01x01" H 8300 5700 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 5700 50  0001 C CNN
-F 3 "~" H 8000 5700 50  0001 C CNN
-	1    8000 5700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2176,33 +2057,33 @@ Wire Wire Line
 $Comp
 L power:VDDA #PWR?
 U 1 1 637F28B6
-P 10250 5950
+P 10250 5650
 AR Path="/63777FB0/637F28B6" Ref="#PWR?"  Part="1" 
 AR Path="/637F28B6" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 10250 5800 50  0001 C CNN
-F 1 "VDDA" V 10250 6100 50  0000 L CNN
-F 2 "" H 10250 5950 50  0001 C CNN
-F 3 "" H 10250 5950 50  0001 C CNN
-	1    10250 5950
+F 0 "#PWR020" H 10250 5500 50  0001 C CNN
+F 1 "VDDA" V 10250 5800 50  0000 L CNN
+F 2 "" H 10250 5650 50  0001 C CNN
+F 3 "" H 10250 5650 50  0001 C CNN
+	1    10250 5650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	10350 4350 10550 4350
 Wire Wire Line
 	10350 4450 10550 4450
-Text GLabel 9600 1800 2    60   Input ~ 0
+Text GLabel 9650 2600 2    60   Input ~ 0
 D12-out
-Text Notes 10450 1850 2    50   ~ 0
+Text Notes 10500 2650 2    50   ~ 0
 PWM Idle
 Wire Wire Line
 	10250 6050 10550 6050
 Wire Wire Line
 	9500 1700 9600 1700
 $Comp
-L Connector:Screw_Terminal_01x07 J32
+L Connector:Screw_Terminal_01x07 J36
 U 1 1 638B141D
 P 10750 5950
-F 0 "J32" V 10850 5900 50  0000 L CNN
+F 0 "J36" V 10850 5900 50  0000 L CNN
 F 1 "Screw_Terminal_01x07" V 11050 5550 50  0000 L CNN
 F 2 "DP1600iAuxTop:Phoenix_1729063" H 10750 5950 50  0001 C CNN
 F 3 "~" H 10750 5950 50  0001 C CNN
@@ -2246,8 +2127,8 @@ L Connector_Generic:Conn_01x01 J?
 U 1 1 63ACA707
 P 8000 4100
 AR Path="/63777FB0/63ACA707" Ref="J?"  Part="1" 
-AR Path="/63ACA707" Ref="J3"  Part="1" 
-F 0 "J3" H 8100 4100 50  0000 L CNN
+AR Path="/63ACA707" Ref="J7"  Part="1" 
+F 0 "J7" H 8100 4100 50  0000 L CNN
 F 1 "Conn_01x01" H 8300 4100 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 4100 50  0001 C CNN
 F 3 "~" H 8000 4100 50  0001 C CNN
@@ -2289,9 +2170,9 @@ F7-out
 Text GLabel 2650 4650 2    50   Input ~ 0
 F7-out
 Text GLabel 3000 5250 2    50   Input ~ 0
-F7-out
+F3-out
 Text GLabel 2650 5700 2    50   Input ~ 0
-F7-out
+F3-out
 $Comp
 L power:GND #PWR019
 U 1 1 638E3A4B
@@ -2443,4 +2324,100 @@ Wire Wire Line
 Wire Wire Line
 	7200 5600 7100 5600
 Connection ~ 7200 5600
+Text GLabel 7800 3800 0    50   Input ~ 0
+CKP-
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 63894168
+P 8000 3700
+AR Path="/63777FB0/63894168" Ref="J?"  Part="1" 
+AR Path="/63894168" Ref="J3"  Part="1" 
+F 0 "J3" H 8100 3700 50  0000 L CNN
+F 1 "Conn_01x01" H 8300 3700 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 3700 50  0001 C CNN
+F 3 "~" H 8000 3700 50  0001 C CNN
+	1    8000 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 3700 0    50   Input ~ 0
+CKP+
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 63894170
+P 8000 3800
+AR Path="/63777FB0/63894170" Ref="J?"  Part="1" 
+AR Path="/63894170" Ref="J4"  Part="1" 
+F 0 "J4" H 8100 3800 50  0000 L CNN
+F 1 "Conn_01x01" H 8300 3800 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 3800 50  0001 C CNN
+F 3 "~" H 8000 3800 50  0001 C CNN
+	1    8000 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 4000 0    50   Input ~ 0
+CMP-
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 638A207F
+P 8000 3900
+AR Path="/63777FB0/638A207F" Ref="J?"  Part="1" 
+AR Path="/638A207F" Ref="J5"  Part="1" 
+F 0 "J5" H 8100 3900 50  0000 L CNN
+F 1 "Conn_01x01" H 8300 3900 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 3900 50  0001 C CNN
+F 3 "~" H 8000 3900 50  0001 C CNN
+	1    8000 3900
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 3900 0    50   Input ~ 0
+CMP+
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 638A2087
+P 8000 4000
+AR Path="/63777FB0/638A2087" Ref="J?"  Part="1" 
+AR Path="/638A2087" Ref="J6"  Part="1" 
+F 0 "J6" H 8100 4000 50  0000 L CNN
+F 1 "Conn_01x01" H 8300 4000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8000 4000 50  0001 C CNN
+F 3 "~" H 8000 4000 50  0001 C CNN
+	1    8000 4000
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 4050 0    50   ~ 0
+CMP VR-
+Text Notes 7100 3950 0    50   ~ 0
+CMP VR+
+Text Notes 7450 3850 2    50   ~ 0
+CKP VR-
+Text Notes 7450 3750 2    50   ~ 0
+CKP VR+
+$Comp
+L Connector:Screw_Terminal_01x07 J32
+U 1 1 639111F5
+P 9300 2700
+F 0 "J32" V 9400 2650 50  0000 L CNN
+F 1 "Screw_Terminal_01x07" V 9600 2300 50  0000 L CNN
+F 2 "DP1600iAuxTop:Phoenix_1729063_Rt" H 9300 2700 50  0001 C CNN
+F 3 "~" H 9300 2700 50  0001 C CNN
+	1    9300 2700
+	-1   0    0    -1  
+$EndComp
+Text GLabel 9600 1600 2    50   Input ~ 0
+F9-out
+Text Notes 10750 1650 2    50   ~ 0
+Tach & WB & Idle +
+Wire Wire Line
+	9500 3000 9650 3000
+$Comp
+L Connector_Generic:Conn_01x07 J23
+U 1 1 63B0B851
+P 8000 6000
+F 0 "J23" V 8100 5950 50  0000 L CNN
+F 1 "Conn_01x07" V 8200 5850 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 8000 6000 50  0001 C CNN
+F 3 "~" H 8000 6000 50  0001 C CNN
+	1    8000 6000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
