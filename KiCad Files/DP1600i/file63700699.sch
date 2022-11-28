@@ -708,17 +708,6 @@ F 3 "" H 10450 2800 50  0001 C CNN
 	1    10450 2800
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:VDDA #PWR030
-U 1 1 6381A0BB
-P 10450 3000
-F 0 "#PWR030" H 10450 2850 50  0001 C CNN
-F 1 "VDDA" V 10467 3128 50  0000 L CNN
-F 2 "" H 10450 3000 50  0001 C CNN
-F 3 "" H 10450 3000 50  0001 C CNN
-	1    10450 3000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10350 2800 10450 2800
 Wire Wire Line
@@ -730,7 +719,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 3000 10050 3000
 Text GLabel 9800 2900 0    50   Input ~ 0
-ADC-Clamp-18
+Clamp-18
 Wire Wire Line
 	9800 2900 9950 2900
 Connection ~ 9950 2900
@@ -976,7 +965,7 @@ Wire Wire Line
 	9400 6350 9250 6350
 Connection ~ 9250 6350
 Text GLabel 9050 6050 0    50   Input ~ 0
-ADC-Clamp-19
+Clamp-19
 Text GLabel 8850 6350 0    50   Input ~ 0
 MCU-D19
 Text Notes 7950 5750 0    74   ~ 0
@@ -1203,17 +1192,6 @@ F 3 "" H 10450 3650 50  0001 C CNN
 	1    10450 3650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:VDDA #PWR050
-U 1 1 6386F39D
-P 10450 3850
-F 0 "#PWR050" H 10450 3700 50  0001 C CNN
-F 1 "VDDA" V 10467 3978 50  0000 L CNN
-F 2 "" H 10450 3850 50  0001 C CNN
-F 3 "" H 10450 3850 50  0001 C CNN
-	1    10450 3850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10350 3650 10450 3650
 Wire Wire Line
@@ -1225,7 +1203,7 @@ Wire Wire Line
 Wire Wire Line
 	9950 3850 10050 3850
 Text GLabel 9800 3750 0    50   Input ~ 0
-ADC-Clamp-19
+Clamp-19
 Wire Wire Line
 	9800 3750 9950 3750
 Connection ~ 9950 3750
@@ -1267,7 +1245,7 @@ Wire Wire Line
 	9400 5150 9250 5150
 Connection ~ 9250 5150
 Text GLabel 9050 4850 0    50   Input ~ 0
-ADC-Clamp-18
+Clamp-18
 Text GLabel 8850 5150 0    50   Input ~ 0
 MCU-D18
 Text Notes 7950 4550 0    74   ~ 0
@@ -1378,4 +1356,26 @@ Text GLabel 10450 1200 2    50   Input ~ 0
 SigRtn
 Text GLabel 10450 2000 2    50   Input ~ 0
 SigRtn
+$Comp
+L power:VDD #PWR?
+U 1 1 63819CE9
+P 10450 3850
+F 0 "#PWR?" H 10450 3700 50  0001 C CNN
+F 1 "VDD" V 10465 3978 50  0000 L CNN
+F 2 "" H 10450 3850 50  0001 C CNN
+F 3 "" H 10450 3850 50  0001 C CNN
+	1    10450 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 63823921
+P 10450 3000
+F 0 "#PWR?" H 10450 2850 50  0001 C CNN
+F 1 "VDD" V 10465 3128 50  0000 L CNN
+F 2 "" H 10450 3000 50  0001 C CNN
+F 3 "" H 10450 3000 50  0001 C CNN
+	1    10450 3000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

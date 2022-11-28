@@ -162,8 +162,6 @@ Text Notes 6650 3750 0    50   ~ 0
 Common ground
 Text Notes 6650 3850 0    50   ~ 0
 Common ground
-Text Notes 6650 4050 0    50   ~ 0
-5 volt
 Text Notes 7350 4150 0    50   ~ 0
 Sensor ground
 Text Notes 6850 4650 0    50   ~ 0
@@ -176,8 +174,6 @@ Text Notes 7500 4350 0    50   ~ 0
 Cylinder head temperaure
 Wire Wire Line
 	6100 4200 6350 4200
-Wire Wire Line
-	6100 4100 7000 4100
 Text Notes 6850 4250 0    50   ~ 0
 Inlet Air Temperature
 Wire Wire Line
@@ -186,21 +182,10 @@ Text GLabel 7000 4300 2    50   Input ~ 0
 CLT_Sensor
 Text GLabel 6350 4200 2    50   Input ~ 0
 IAT_Sensor
-$Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 63818FB5
-P 7200 3900
-F 0 "J10" H 7300 3900 50  0000 L CNN
-F 1 "Conn_01x01" H 7450 3900 50  0000 L CNN
-F 2 "DP1600i:Jumper-Pad" H 7200 3900 50  0001 C CNN
-F 3 "~" H 7200 3900 50  0001 C CNN
-	1    7200 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6100 3900 7000 3900
-Text Notes 7950 3950 0    50   ~ 0
-Jumper pad
+Text Notes 6700 4050 0    50   ~ 0
+5V ADC
 $Comp
 L Connector_Generic:Conn_01x05 J11
 U 1 1 637FBB56
@@ -696,9 +681,24 @@ NoConn ~ 1750 2600
 $Comp
 L power:VDD #PWR?
 U 1 1 63860120
+P 7000 3900
+F 0 "#PWR?" H 7000 3750 50  0001 C CNN
+F 1 "VDD" V 7015 4028 50  0000 L CNN
+F 2 "" H 7000 3900 50  0001 C CNN
+F 3 "" H 7000 3900 50  0001 C CNN
+	1    7000 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 4100 7000 4100
+Text Notes 7300 3950 0    50   ~ 0
+5 volt
+$Comp
+L power:VDDA #PWR?
+U 1 1 63898C7D
 P 6350 4000
 F 0 "#PWR?" H 6350 3850 50  0001 C CNN
-F 1 "VDD" V 6365 4128 50  0000 L CNN
+F 1 "VDDA" V 6365 4128 50  0000 L CNN
 F 2 "" H 6350 4000 50  0001 C CNN
 F 3 "" H 6350 4000 50  0001 C CNN
 	1    6350 4000
