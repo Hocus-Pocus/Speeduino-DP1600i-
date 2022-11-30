@@ -1517,19 +1517,6 @@ F 3 "" H 6600 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:VDD #PWR?
-U 1 1 63ACA740
-P 7100 2850
-AR Path="/63777FB0/63ACA740" Ref="#PWR?"  Part="1" 
-AR Path="/63ACA740" Ref="#PWR015"  Part="1" 
-F 0 "#PWR015" H 7100 2700 50  0001 C CNN
-F 1 "VDD" V 7115 2978 50  0000 L CNN
-F 2 "" H 7100 2850 50  0001 C CNN
-F 3 "" H 7100 2850 50  0001 C CNN
-	1    7100 2850
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 63ACA746
 P 7800 2750
@@ -1596,7 +1583,7 @@ F 3 "~" H 10750 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7800 3150 0    50   Input ~ 0
-F7-out
+F9-out
 Text Notes 6600 3200 0    50   ~ 0
 Tach & WB & Idle +
 Text Notes 5600 5550 0    50   ~ 0
@@ -1632,9 +1619,9 @@ Wire Wire Line
 	5100 2050 5100 1900
 Connection ~ 5100 1900
 Text GLabel 3000 4200 2    50   Input ~ 0
-F7-out
+F9-out
 Text GLabel 2650 4650 2    50   Input ~ 0
-F7-out
+F9-out
 Text GLabel 3000 5250 2    50   Input ~ 0
 F3-out
 Text GLabel 2650 5700 2    50   Input ~ 0
@@ -1698,27 +1685,11 @@ F 3 "~" H 6550 5350 50  0001 C CNN
 	1    6550 5350
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG03
-U 1 1 63962550
-P 7200 2850
-F 0 "#FLG03" H 7200 2925 50  0001 C CNN
-F 1 "PWR_FLAG" H 7200 3023 50  0000 C CNN
-F 2 "" H 7200 2850 50  0001 C CNN
-F 3 "~" H 7200 2850 50  0001 C CNN
-	1    7200 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7800 2850 7200 2850
 Wire Wire Line
 	6600 5700 6700 5700
 Connection ~ 6700 5700
 Wire Wire Line
 	6700 5700 7800 5700
-Wire Wire Line
-	7200 2850 7100 2850
-Connection ~ 7200 2850
 Text GLabel 7800 3050 0    50   Input ~ 0
 CKP-
 Text GLabel 7800 2950 0    50   Input ~ 0
@@ -1917,6 +1888,19 @@ F 1 "GND" V 7805 3972 50  0000 R CNN
 F 2 "" H 7800 4100 50  0001 C CNN
 F 3 "" H 7800 4100 50  0001 C CNN
 	1    7800 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F7A
+P 7800 2850
+AR Path="/63777FB0/638D1F7A" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F7A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7800 2600 50  0001 C CNN
+F 1 "GND" V 7805 2722 50  0000 R CNN
+F 2 "" H 7800 2850 50  0001 C CNN
+F 3 "" H 7800 2850 50  0001 C CNN
+	1    7800 2850
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC

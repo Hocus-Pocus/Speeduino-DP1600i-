@@ -1455,41 +1455,41 @@ Text GLabel 7800 6300 0    50   Input ~ 0
 Spare-ADC
 Text GLabel 7800 5800 0    50   Input ~ 0
 SigRtn
-Text GLabel 7800 3550 0    50   Input ~ 0
+Text GLabel 7800 3750 0    50   Input ~ 0
 D51-control
-Text GLabel 7800 3650 0    50   Input ~ 0
+Text GLabel 7800 3850 0    50   Input ~ 0
 D50-control
-Text GLabel 7800 4400 0    50   Input ~ 0
-D48-control
-Text GLabel 7800 3250 0    50   Input ~ 0
-D12-control
-Text GLabel 7800 4700 0    50   Input ~ 0
-D11-control
 Text GLabel 7800 4600 0    50   Input ~ 0
+D48-control
+Text GLabel 7800 3450 0    50   Input ~ 0
+D12-control
+Text GLabel 7800 4900 0    50   Input ~ 0
+D11-control
+Text GLabel 7800 4800 0    50   Input ~ 0
 D10-control
-Text GLabel 7800 3350 0    50   Input ~ 0
+Text GLabel 7800 3550 0    50   Input ~ 0
 D9-control
 Text GLabel 7800 5600 0    50   Input ~ 0
 12V-Raw
-Text GLabel 7800 3450 0    50   Input ~ 0
+Text GLabel 7800 3650 0    50   Input ~ 0
 D8-control
 Text Notes 7350 5650 2    50   ~ 0
 12 volt from main relay
-Text Notes 7150 3500 0    50   ~ 0
+Text Notes 7150 3700 0    50   ~ 0
 Inj1
-Text Notes 7150 3400 0    50   ~ 0
+Text Notes 7150 3600 0    50   ~ 0
 Inj2
-Text Notes 7100 4650 0    50   ~ 0
+Text Notes 7100 4850 0    50   ~ 0
 Inj3
-Text Notes 7100 4750 0    50   ~ 0
+Text Notes 7100 4950 0    50   ~ 0
 Inj4
-Text Notes 6900 3300 0    50   ~ 0
+Text Notes 6900 3500 0    50   ~ 0
 PWM Idle
-Text Notes 6600 4450 0    50   ~ 0
+Text Notes 6600 4650 0    50   ~ 0
 ASD relay control
-Text Notes 7100 3700 0    50   ~ 0
+Text Notes 7100 3900 0    50   ~ 0
 Ign1
-Text Notes 7100 3600 0    50   ~ 0
+Text Notes 7100 3800 0    50   ~ 0
 Ign2
 Text Notes 6950 5850 0    50   ~ 0
 Sensor ground
@@ -1519,27 +1519,27 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 63ACA746
-P 7800 2750
+P 7800 2950
 AR Path="/63777FB0/63ACA746" Ref="#PWR?"  Part="1" 
 AR Path="/63ACA746" Ref="#PWR017"  Part="1" 
-F 0 "#PWR017" H 7800 2500 50  0001 C CNN
-F 1 "GND" V 7805 2622 50  0000 R CNN
-F 2 "" H 7800 2750 50  0001 C CNN
-F 3 "" H 7800 2750 50  0001 C CNN
-	1    7800 2750
+F 0 "#PWR017" H 7800 2700 50  0001 C CNN
+F 1 "GND" V 7805 2822 50  0000 R CNN
+F 2 "" H 7800 2950 50  0001 C CNN
+F 3 "" H 7800 2950 50  0001 C CNN
+	1    7800 2950
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 63ACA74C
-P 7800 3900
+P 7800 4150
 AR Path="/63777FB0/63ACA74C" Ref="#PWR?"  Part="1" 
 AR Path="/63ACA74C" Ref="#PWR016"  Part="1" 
-F 0 "#PWR016" H 7800 3650 50  0001 C CNN
-F 1 "GND" V 7805 3772 50  0000 R CNN
-F 2 "" H 7800 3900 50  0001 C CNN
-F 3 "" H 7800 3900 50  0001 C CNN
-	1    7800 3900
+F 0 "#PWR016" H 7800 3900 50  0001 C CNN
+F 1 "GND" V 7805 4022 50  0000 R CNN
+F 2 "" H 7800 4150 50  0001 C CNN
+F 3 "" H 7800 4150 50  0001 C CNN
+	1    7800 4150
 	0    1    1    0   
 $EndComp
 Text GLabel 7800 5500 0    50   Input ~ 0
@@ -1582,9 +1582,9 @@ F 3 "~" H 10750 5950 50  0001 C CNN
 	1    10750 5950
 	1    0    0    -1  
 $EndComp
-Text GLabel 7800 3150 0    50   Input ~ 0
-F7-out
-Text Notes 6600 3200 0    50   ~ 0
+Text GLabel 7800 3350 0    50   Input ~ 0
+F9-out
+Text Notes 6600 3400 0    50   ~ 0
 Tach & WB & Idle +
 Text Notes 5600 5550 0    50   ~ 0
 (12 volt square wave signal to tachometer)
@@ -1619,9 +1619,9 @@ Wire Wire Line
 	5100 2050 5100 1900
 Connection ~ 5100 1900
 Text GLabel 3000 4200 2    50   Input ~ 0
-F7-out
+F9-out
 Text GLabel 2650 4650 2    50   Input ~ 0
-F7-out
+F9-out
 Text GLabel 3000 5250 2    50   Input ~ 0
 F3-out
 Text GLabel 2650 5700 2    50   Input ~ 0
@@ -1690,21 +1690,21 @@ Wire Wire Line
 Connection ~ 6700 5700
 Wire Wire Line
 	6700 5700 7800 5700
-Text GLabel 7800 3050 0    50   Input ~ 0
+Text GLabel 7800 3250 0    50   Input ~ 0
 CKP-
-Text GLabel 7800 2950 0    50   Input ~ 0
+Text GLabel 7800 3150 0    50   Input ~ 0
 CKP+
-Text GLabel 5000 3150 0    50   Input ~ 0
+Text GLabel 7800 2700 0    50   Input ~ 0
 CMP-
-Text GLabel 5000 3050 0    50   Input ~ 0
+Text GLabel 7800 2600 0    50   Input ~ 0
 CMP+
-Text Notes 4300 3200 0    50   ~ 0
+Text Notes 7100 2750 0    50   ~ 0
 CMP VR-
-Text Notes 4300 3100 0    50   ~ 0
+Text Notes 7100 2650 0    50   ~ 0
 CMP VR+
-Text Notes 7450 3100 2    50   ~ 0
+Text Notes 7450 3300 2    50   ~ 0
 CKP VR-
-Text Notes 7450 3000 2    50   ~ 0
+Text Notes 7450 3200 2    50   ~ 0
 CKP VR+
 $Comp
 L Connector:Screw_Terminal_01x07 J32
@@ -1808,99 +1808,99 @@ Wire Wire Line
 	6700 5350 6550 5350
 Wire Wire Line
 	6700 5350 6700 5700
-Text Notes 6250 4550 0    50   ~ 0
+Text Notes 6250 4750 0    50   ~ 0
 Spare high current output 
-Text GLabel 7800 4500 0    50   Input ~ 0
+Text GLabel 7800 4700 0    50   Input ~ 0
 D13-control
-Text Notes 7050 4950 0    50   ~ 0
+Text Notes 7050 5150 0    50   ~ 0
 Ign4
-Text Notes 7050 4850 0    50   ~ 0
+Text Notes 7050 5050 0    50   ~ 0
 Ign3
-Text GLabel 7800 4800 0    50   Input ~ 0
+Text GLabel 7800 5000 0    50   Input ~ 0
 D52-control
-Text GLabel 7800 4900 0    50   Input ~ 0
+Text GLabel 7800 5100 0    50   Input ~ 0
 D53-control
 $Comp
 L Connector_Generic:Conn_01x06 J13
 U 1 1 63A44278
-P 8000 4600
-F 0 "J13" V 8100 4500 50  0000 L CNN
-F 1 "Conn_01x06" V 8200 4400 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8000 4600 50  0001 C CNN
-F 3 "~" H 8000 4600 50  0001 C CNN
-	1    8000 4600
+P 8000 4800
+F 0 "J13" V 8100 4700 50  0000 L CNN
+F 1 "Conn_01x06" V 8200 4600 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 8000 4800 50  0001 C CNN
+F 3 "~" H 8000 4800 50  0001 C CNN
+	1    8000 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 63A65D5A
-P 5200 3050
-F 0 "J5" V 5300 2950 50  0000 L CNN
-F 1 "Conn_01x02" V 5400 2800 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5200 3050 50  0001 C CNN
-F 3 "~" H 5200 3050 50  0001 C CNN
-	1    5200 3050
+P 8000 2600
+F 0 "J5" V 8100 2500 50  0000 L CNN
+F 1 "Conn_01x02" V 8200 2350 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8000 2600 50  0001 C CNN
+F 3 "~" H 8000 2600 50  0001 C CNN
+	1    8000 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x10 J1
 U 1 1 63A66B13
-P 8000 3150
-F 0 "J1" V 8100 3050 50  0000 L CNN
-F 1 "Conn_01x10" V 8200 2950 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8000 3150 50  0001 C CNN
-F 3 "~" H 8000 3150 50  0001 C CNN
-	1    8000 3150
+P 8000 3350
+F 0 "J1" V 8100 3250 50  0000 L CNN
+F 1 "Conn_01x10" V 8200 3150 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8000 3350 50  0001 C CNN
+F 3 "~" H 8000 3350 50  0001 C CNN
+	1    8000 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J20
 U 1 1 638BBCF8
-P 8000 4000
-F 0 "J20" V 8100 3950 50  0000 L CNN
-F 1 "Conn_01x03" V 8200 3800 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8000 4000 50  0001 C CNN
-F 3 "~" H 8000 4000 50  0001 C CNN
-	1    8000 4000
+P 8000 4250
+F 0 "J20" V 8100 4200 50  0000 L CNN
+F 1 "Conn_01x03" V 8200 4050 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8000 4250 50  0001 C CNN
+F 3 "~" H 8000 4250 50  0001 C CNN
+	1    8000 4250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 638BE07F
-P 7800 4000
+P 7800 4250
 AR Path="/63777FB0/638BE07F" Ref="#PWR?"  Part="1" 
 AR Path="/638BE07F" Ref="#PWR0101"  Part="1" 
-F 0 "#PWR0101" H 7800 3750 50  0001 C CNN
-F 1 "GND" V 7805 3872 50  0000 R CNN
-F 2 "" H 7800 4000 50  0001 C CNN
-F 3 "" H 7800 4000 50  0001 C CNN
-	1    7800 4000
+F 0 "#PWR0101" H 7800 4000 50  0001 C CNN
+F 1 "GND" V 7805 4122 50  0000 R CNN
+F 2 "" H 7800 4250 50  0001 C CNN
+F 3 "" H 7800 4250 50  0001 C CNN
+	1    7800 4250
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 638BE1F1
-P 7800 4100
+P 7800 4350
 AR Path="/63777FB0/638BE1F1" Ref="#PWR?"  Part="1" 
 AR Path="/638BE1F1" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 7800 3850 50  0001 C CNN
-F 1 "GND" V 7805 3972 50  0000 R CNN
-F 2 "" H 7800 4100 50  0001 C CNN
-F 3 "" H 7800 4100 50  0001 C CNN
-	1    7800 4100
+F 0 "#PWR0102" H 7800 4100 50  0001 C CNN
+F 1 "GND" V 7805 4222 50  0000 R CNN
+F 2 "" H 7800 4350 50  0001 C CNN
+F 3 "" H 7800 4350 50  0001 C CNN
+	1    7800 4350
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 638D1F7A
-P 7800 2850
+P 7800 3050
 AR Path="/63777FB0/638D1F7A" Ref="#PWR?"  Part="1" 
 AR Path="/638D1F7A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7800 2600 50  0001 C CNN
-F 1 "GND" V 7805 2722 50  0000 R CNN
-F 2 "" H 7800 2850 50  0001 C CNN
-F 3 "" H 7800 2850 50  0001 C CNN
-	1    7800 2850
+F 0 "#PWR?" H 7800 2800 50  0001 C CNN
+F 1 "GND" V 7805 2922 50  0000 R CNN
+F 2 "" H 7800 3050 50  0001 C CNN
+F 3 "" H 7800 3050 50  0001 C CNN
+	1    7800 3050
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
