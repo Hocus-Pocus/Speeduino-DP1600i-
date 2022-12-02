@@ -147,8 +147,8 @@ F 7 "" H -100 -2200 50  0001 C CNN "URL"
 	1    7950 2600
 	0    1    -1   0   
 $EndComp
-Text Notes 8350 1000 0    74   ~ 0
-Crank Angle Sensor
+Text Notes 8100 700  0    74   ~ 0
+Crank Angle Sensor conditioner
 $Comp
 L Jumper:Jumper_2_Open JP2
 U 1 1 64A59887
@@ -372,8 +372,8 @@ Wire Wire Line
 Connection ~ 9900 900 
 Wire Wire Line
 	9900 900  9900 1000
-Text Notes 8400 2750 0    74   ~ 0
-Cam Angle Sensor
+Text Notes 8100 2950 0    74   ~ 0
+Cam Angle Sensor conditioner
 $Comp
 L Device:R R2
 U 1 1 64AAE5FF
@@ -451,7 +451,7 @@ F9-out
 Text GLabel 1900 2950 2    50   Input ~ 0
 Tachometer
 Text Notes 800  4900 0    100  ~ 0
-Connections to DP1600i board
+DB25 connections to DP1600i board
 Text GLabel 1900 2650 2    50   Input ~ 0
 D49-control
 Text Notes 9450 5600 0    50   ~ 0
@@ -1155,7 +1155,7 @@ Text Notes 10050 4500 2    50   ~ 0
 Text Notes 9250 4400 0    50   ~ 0
 Tachometer signal
 Text Notes 850  1500 0    100  ~ 0
-Tachometer driver
+Tachometer driver circuit
 Text Notes 6950 4000 0    100  ~ 0
-Header sockets connection to DP1660iAuxTop board
+Header sockets connections to DP1660iAuxTop board
 $EndSCHEMATC

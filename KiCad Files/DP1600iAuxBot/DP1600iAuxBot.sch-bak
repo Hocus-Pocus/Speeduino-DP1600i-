@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 12050 5800 1100 650 
+S 5850 7000 1100 650 
 U 64A3EE69
 F0 "Temp" 50
 F1 "file64A3EE68.sch" 50
