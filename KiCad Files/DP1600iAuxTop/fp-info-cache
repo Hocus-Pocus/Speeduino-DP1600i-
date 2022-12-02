@@ -1,45 +1,59 @@
-19420333547438336
-BPEM488CWaux
-A4988StepStick
-Through hole straight pin header, 1x08, 2.54mm pitch, single row
-Through hole pin header THT 1x08 2.54mm single row
+19386582936030815
+BPEM488 Inputs
+23ESA104mmF50NF
+
+
 0
-16
-16
-BPEM488CWaux
-L7808
-TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Horizontal RM 2.54mm
+5
+3
+BPEM488 Inputs
+EBWA-02-B
+
+
 0
-3
-3
-BPEM488CWaux
-LM1085
-TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Horizontal RM 2.54mm
-0
-3
-3
-BPEM488CWaux
-Single_VR_Conditioner
-8-lead though-hole mounted DIP package, row spacing 10.16 mm (400 mils)
-THT DIP DIL PDIP 2.54mm 10.16mm 400mil
-0
-8
-8
-BPEM488CWaux
-ZTX450
-http://www.ti.com/lit/ds/symlink/tl431a.pdf
+2
+2
+BPEM488 Inputs
+EBWA-03-B
+
 
 0
 3
 3
-BPEM488CWaux
-ZTX550
-http://www.ti.com/lit/ds/symlink/tl431a.pdf
+BPEM488 Inputs
+EBWA-04-B
+
 
 0
+4
+4
+BPEM488 Inputs
+EBWA-05-B
+
+
+0
+5
+5
+BPEM488 Inputs
+GF-123-0054
+
+
+0
+2
+2
+BPEM488 Inputs
+PDB241-E420K-103B0
+
+
+0
+5
 3
+BPEM488 Inputs
+Rotary Encoder
+
+
+0
+5
 3
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
@@ -342,69 +356,6 @@ battery CR-3032 coin cell vertical
 0
 2
 2
-Buggly Gruesome AuxTop
-01530008Z_Fuse_Holder
-
-
-0
-3
-2
-Buggly Gruesome AuxTop
-Phoenix_1714955
-
-
-0
-2
-2
-Buggly Gruesome AuxTop
-Phoenix_1714968
-
-
-0
-3
-3
-Buggly Gruesome AuxTop
-Phoenix_1715190
-
-
-0
-6
-6
-Buggly Gruesome AuxTop
-Phoenix_1729063
-
-
-0
-7
-7
-Buggly Gruesome AuxTop
-Phoenix_1729076
-
-
-0
-8
-8
-Buggly Gruesome AuxTop
-Phoenix_1729102
-
-
-0
-11
-11
-Buggly Gruesome AuxTop
-Phoenix_1730010
-
-
-0
-2
-2
-Buggly Gruesome AuxTop
-TO-220-3_Vertical_Wide
-TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Vertical RM 2.54mm
-0
-3
-3
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -48852,97 +48803,6 @@ THT ceramic resonator filter DSS6
 0
 3
 3
-DP1600i
-Phoenix_1714955
-
-
-0
-2
-2
-DP1600iAuxTop
-01530008Z_Fuse_Holder
-
-
-0
-3
-2
-DP1600iAuxTop
-Phoenix_1714955
-
-
-0
-2
-2
-DP1600iAuxTop
-Phoenix_1714968
-
-
-0
-3
-3
-DP1600iAuxTop
-Phoenix_1715190
-
-
-0
-6
-6
-DP1600iAuxTop
-Phoenix_1715190_Rt
-
-
-0
-6
-6
-DP1600iAuxTop
-Phoenix_1729063
-
-
-0
-7
-7
-DP1600iAuxTop
-Phoenix_1729063_Rt
-
-
-0
-7
-7
-DP1600iAuxTop
-Phoenix_1729076
-
-
-0
-8
-8
-DP1600iAuxTop
-Phoenix_1729076_Rt
-
-
-0
-8
-8
-DP1600iAuxTop
-Phoenix_1729102
-
-
-0
-11
-11
-DP1600iAuxTop
-Phoenix_1730010
-
-
-0
-2
-2
-DP1600iAuxTop
-VCF4-1000
-
-
-0
-7
-5
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
