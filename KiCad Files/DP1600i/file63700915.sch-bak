@@ -90,8 +90,8 @@ F 3 "" H 6350 3700 50  0001 C CNN
 	1    6350 3700
 	0    -1   -1   0   
 $EndComp
-Text Notes 5550 1750 0    100  ~ 0
-Connections to Aux board
+Text Notes 5150 1900 0    100  ~ 0
+DB25 connections to DP1600iAuxBot board
 Wire Wire Line
 	6350 4000 6100 4000
 Wire Wire Line
@@ -704,4 +704,6 @@ F 3 "" H 6350 4000 50  0001 C CNN
 	1    6350 4000
 	0    1    1    0   
 $EndComp
+Text Notes 1200 750  0    100  ~ 0
+Proto board connections\n
 $EndSCHEMATC

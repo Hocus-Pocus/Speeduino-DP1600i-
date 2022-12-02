@@ -114,111 +114,111 @@ Wire Wire Line
 Wire Wire Line
 	7600 3000 7600 3100
 Connection ~ 7600 3100
-Text Notes 5900 1950 0    89   ~ 0
-Power Regulator
+Text Notes 5550 1100 0    89   ~ 0
+5 Volt Power Regulator
 Text GLabel 5050 1600 1    50   Input ~ 0
 12V
-Text Notes 5650 4050 0    89   ~ 0
+Text Notes 2950 4550 0    89   ~ 0
 Reset Protection
-Text Notes 5500 4200 0    58   ~ 0
+Text Notes 2800 4700 0    58   ~ 0
 Refer AVR040 Application Note
 $Comp
 L Device:C C20
 U 1 1 5CF0AAD4
-P 5700 4950
-F 0 "C20" V 5650 4700 50  0000 L CNN
-F 1 "22uF" V 5750 4700 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 5738 4800 50  0001 C CNN
-F 3 "~" H 5700 4950 50  0001 C CNN
-F 4 "445-180603-1-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "TDK" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "FA22X7R1E226MRU06" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "" H 0   0   50  0001 C CNN "URL"
-	1    5700 4950
+P 3000 5450
+F 0 "C20" V 2950 5200 50  0000 L CNN
+F 1 "22uF" V 3050 5200 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P5.00mm" H 3038 5300 50  0001 C CNN
+F 3 "~" H 3000 5450 50  0001 C CNN
+F 4 "445-180603-1-ND" H -2700 500 50  0001 C CNN "Digikey Part Number"
+F 5 "TDK" H -2700 500 50  0001 C CNN "Manufacturer_Name"
+F 6 "FA22X7R1E226MRU06" H -2700 500 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "" H -2700 500 50  0001 C CNN "URL"
+	1    3000 5450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 5CF13C09
-P 5950 4700
-F 0 "R13" V 6050 4650 50  0000 L CNN
-F 1 "120R" V 5850 4600 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5880 4700 50  0001 C CNN
-F 3 "~" H 5950 4700 50  0001 C CNN
-F 4 "BC3453CT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "Vishay" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "MBA02040C1200FC100" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "" H 0   0   50  0001 C CNN "URL"
-	1    5950 4700
+P 3250 5200
+F 0 "R13" V 3350 5150 50  0000 L CNN
+F 1 "120R" V 3150 5100 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3180 5200 50  0001 C CNN
+F 3 "~" H 3250 5200 50  0001 C CNN
+F 4 "BC3453CT-ND" H -2700 500 50  0001 C CNN "Digikey Part Number"
+F 5 "Vishay" H -2700 500 50  0001 C CNN "Manufacturer_Name"
+F 6 "MBA02040C1200FC100" H -2700 500 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "" H -2700 500 50  0001 C CNN "URL"
+	1    3250 5200
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:VDD #PWR033
 U 1 1 5CF1825D
-P 6150 4550
-F 0 "#PWR033" H 6150 4400 50  0001 C CNN
-F 1 "VDD" H 6167 4723 50  0000 C CNN
-F 2 "" H 6150 4550 50  0001 C CNN
-F 3 "" H 6150 4550 50  0001 C CNN
-	1    6150 4550
+P 3450 5050
+F 0 "#PWR033" H 3450 4900 50  0001 C CNN
+F 1 "VDD" H 3467 5223 50  0000 C CNN
+F 2 "" H 3450 5050 50  0001 C CNN
+F 3 "" H 3450 5050 50  0001 C CNN
+	1    3450 5050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR031
 U 1 1 5CF1EB2F
-P 5450 4950
-F 0 "#PWR031" H 5450 4700 50  0001 C CNN
-F 1 "GND" V 5455 4822 50  0000 R CNN
-F 2 "" H 5450 4950 50  0001 C CNN
-F 3 "" H 5450 4950 50  0001 C CNN
-	1    5450 4950
+P 2750 5450
+F 0 "#PWR031" H 2750 5200 50  0001 C CNN
+F 1 "GND" V 2755 5322 50  0000 R CNN
+F 2 "" H 2750 5450 50  0001 C CNN
+F 3 "" H 2750 5450 50  0001 C CNN
+	1    2750 5450
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5450 4950 5550 4950
+	2750 5450 2850 5450
 Wire Wire Line
-	5950 5050 5950 4950
+	3250 5550 3250 5450
 Wire Wire Line
-	5850 4950 5950 4950
-Connection ~ 5950 4950
+	3150 5450 3250 5450
+Connection ~ 3250 5450
 Wire Wire Line
-	5950 4950 5950 4850
+	3250 5450 3250 5350
 Wire Wire Line
-	5950 4550 6150 4550
-Text GLabel 6350 5250 2    50   Input ~ 0
+	3250 5050 3450 5050
+Text GLabel 3650 5750 2    50   Input ~ 0
 RESET
 Wire Wire Line
-	5950 5050 6000 5050
+	3250 5550 3300 5550
 $Comp
 L Device:R R12
 U 1 1 5CE55978
-P 5750 5250
-F 0 "R12" V 5650 5150 50  0000 L CNN
-F 1 "10k" V 5850 5150 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5680 5250 50  0001 C CNN
-F 3 "~" H 5750 5250 50  0001 C CNN
-F 4 "BC10.0KXCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "Vishay" H 0   0   50  0001 C CNN "Manufacturer_Name"
-F 6 "MBA02040C1002FRP00" H 0   0   50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/vishay-beyschlag-draloric-bc-components/MBA02040C1002FRP00/BC10-0KXCT-ND/336866" H 0   0   50  0001 C CNN "URL"
-	1    5750 5250
+P 3050 5750
+F 0 "R12" V 2950 5650 50  0000 L CNN
+F 1 "10k" V 3150 5650 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2980 5750 50  0001 C CNN
+F 3 "~" H 3050 5750 50  0001 C CNN
+F 4 "BC10.0KXCT-ND" H -2700 500 50  0001 C CNN "Digikey Part Number"
+F 5 "Vishay" H -2700 500 50  0001 C CNN "Manufacturer_Name"
+F 6 "MBA02040C1002FRP00" H -2700 500 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/product-detail/en/vishay-beyschlag-draloric-bc-components/MBA02040C1002FRP00/BC10-0KXCT-ND/336866" H -2700 500 50  0001 C CNN "URL"
+	1    3050 5750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5900 5250 6200 5250
+	3200 5750 3500 5750
 $Comp
 L power:VDD #PWR032
 U 1 1 5CE5E61D
-P 5500 5250
-F 0 "#PWR032" H 5500 5100 50  0001 C CNN
-F 1 "VDD" H 5517 5423 50  0000 C CNN
-F 2 "" H 5500 5250 50  0001 C CNN
-F 3 "" H 5500 5250 50  0001 C CNN
-	1    5500 5250
+P 2800 5750
+F 0 "#PWR032" H 2800 5600 50  0001 C CNN
+F 1 "VDD" H 2817 5923 50  0000 C CNN
+F 2 "" H 2800 5750 50  0001 C CNN
+F 3 "" H 2800 5750 50  0001 C CNN
+	1    2800 5750
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5500 5250 5600 5250
+	2800 5750 2900 5750
 $Comp
 L Regulator_Linear:LM2937xS U3
 U 1 1 5CFC6620
@@ -271,19 +271,19 @@ Wire Wire Line
 $Comp
 L Device:Jumper_NO_Small JP1
 U 1 1 60E353E8
-P 6100 5050
-F 0 "JP1" H 6100 5143 50  0000 C CNN
-F 1 "Jumper_NO_Small" H 6100 5144 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6100 5050 50  0001 C CNN
-F 3 "~" H 6100 5050 50  0001 C CNN
-	1    6100 5050
+P 3400 5550
+F 0 "JP1" H 3400 5643 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 3400 5644 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3400 5550 50  0001 C CNN
+F 3 "~" H 3400 5550 50  0001 C CNN
+	1    3400 5550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 5050 6200 5250
-Connection ~ 6200 5250
+	3500 5550 3500 5750
+Connection ~ 3500 5750
 Wire Wire Line
-	6200 5250 6350 5250
+	3500 5750 3650 5750
 Wire Wire Line
 	6350 3100 7600 3100
 Connection ~ 7800 2450

@@ -195,8 +195,8 @@ Text Notes 3500 1850 3    50   ~ 0
 (Inj3 control)
 Text Notes 3400 1850 3    50   ~ 0
 (Inj4 control)
-Text Notes 7200 1400 0    100  ~ 0
-Arduino Mega 2560 headers
+Text Notes 2750 850  0    118  ~ 0
+Header pin connections to Arduino Mega 2560 header sockets
 Text GLabel 5250 1400 3    50   Input ~ 0
 MCU-D19
 Text GLabel 5150 1400 3    50   Input ~ 0
