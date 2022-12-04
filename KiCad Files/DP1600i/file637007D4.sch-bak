@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 5
 Title "DP1600i"
 Date "2022-11-11"
 Rev ""
@@ -467,4 +467,6 @@ Wire Wire Line
 Connection ~ 5250 3250
 Wire Wire Line
 	5250 3250 5850 3250
+Text Notes 3000 3450 0    50   ~ 0
+Note! SigRtn connects to ground at this point only.
 $EndSCHEMATC

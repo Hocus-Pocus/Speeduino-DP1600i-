@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 5
 Title "DP1600i"
 Date "2022-11-11"
 Rev ""
@@ -586,32 +586,8 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8350 3650 50  0001 C CNN
 	1    8350 3650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:1N5818 D10
-U 1 1 637ACEA2
-P 8350 3850
-F 0 "D10" H 8350 4100 50  0000 C CNN
-F 1 "1N5818" H 8350 4000 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8350 3675 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8350 3850 50  0001 C CNN
-	1    8350 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VDDA #PWR028
-U 1 1 637C9F87
-P 8600 3850
-F 0 "#PWR028" H 8600 3700 50  0001 C CNN
-F 1 "VDDA" V 8617 3978 50  0000 L CNN
-F 2 "" H 8600 3850 50  0001 C CNN
-F 3 "" H 8600 3850 50  0001 C CNN
-	1    8600 3850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8500 3650 8600 3650
-Wire Wire Line
-	8500 3850 8600 3850
 Wire Wire Line
 	8200 3650 8100 3650
 Wire Wire Line
@@ -636,32 +612,8 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10200 2000 50  0001 C CNN
 	1    10200 2000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:1N5818 D8
-U 1 1 63805C14
-P 10200 2200
-F 0 "D8" H 10200 2450 50  0000 C CNN
-F 1 "1N5818" H 10200 2350 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10200 2025 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10200 2200 50  0001 C CNN
-	1    10200 2200
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VDDA #PWR026
-U 1 1 63805C20
-P 10450 2200
-F 0 "#PWR026" H 10450 2050 50  0001 C CNN
-F 1 "VDDA" V 10467 2328 50  0000 L CNN
-F 2 "" H 10450 2200 50  0001 C CNN
-F 3 "" H 10450 2200 50  0001 C CNN
-	1    10450 2200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10350 2000 10450 2000
-Wire Wire Line
-	10350 2200 10450 2200
 Wire Wire Line
 	10050 2000 9950 2000
 Wire Wire Line
@@ -687,17 +639,6 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10200 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N5818 D12
-U 1 1 6381A0AF
-P 10200 3000
-F 0 "D12" H 10200 3250 50  0000 C CNN
-F 1 "1N5818" H 10200 3150 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10200 2825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10200 3000 50  0001 C CNN
-	1    10200 3000
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR029
 U 1 1 6381A0B5
 P 10450 2800
@@ -710,8 +651,6 @@ F 3 "" H 10450 2800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10350 2800 10450 2800
-Wire Wire Line
-	10350 3000 10450 3000
 Wire Wire Line
 	10050 2800 9950 2800
 Wire Wire Line
@@ -790,32 +729,8 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8350 2000 50  0001 C CNN
 	1    8350 2000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:1N5818 D4
-U 1 1 6389B22C
-P 8350 2200
-F 0 "D4" H 8350 2450 50  0000 C CNN
-F 1 "1N5818" H 8350 2350 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8350 2025 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8350 2200 50  0001 C CNN
-	1    8350 2200
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VDDA #PWR021
-U 1 1 6389B238
-P 8600 2200
-F 0 "#PWR021" H 8600 2050 50  0001 C CNN
-F 1 "VDDA" V 8617 2328 50  0000 L CNN
-F 2 "" H 8600 2200 50  0001 C CNN
-F 3 "" H 8600 2200 50  0001 C CNN
-	1    8600 2200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8500 2000 8600 2000
-Wire Wire Line
-	8500 2200 8600 2200
 Wire Wire Line
 	8200 2000 8100 2000
 Wire Wire Line
@@ -840,32 +755,8 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8350 1200 50  0001 C CNN
 	1    8350 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:1N5818 D2
-U 1 1 6389B24D
-P 8350 1400
-F 0 "D2" H 8350 1650 50  0000 C CNN
-F 1 "1N5818" H 8350 1550 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8350 1225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8350 1400 50  0001 C CNN
-	1    8350 1400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VDDA #PWR019
-U 1 1 6389B259
-P 8600 1400
-F 0 "#PWR019" H 8600 1250 50  0001 C CNN
-F 1 "VDDA" V 8617 1528 50  0000 L CNN
-F 2 "" H 8600 1400 50  0001 C CNN
-F 3 "" H 8600 1400 50  0001 C CNN
-	1    8600 1400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8500 1200 8600 1200
-Wire Wire Line
-	8500 1400 8600 1400
 Wire Wire Line
 	8200 1200 8100 1200
 Wire Wire Line
@@ -890,32 +781,8 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8350 2800 50  0001 C CNN
 	1    8350 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:1N5818 D6
-U 1 1 6389B28F
-P 8350 3000
-F 0 "D6" H 8350 3250 50  0000 C CNN
-F 1 "1N5818" H 8350 3150 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8350 2825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8350 3000 50  0001 C CNN
-	1    8350 3000
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VDDA #PWR023
-U 1 1 6389B29B
-P 8600 3000
-F 0 "#PWR023" H 8600 2850 50  0001 C CNN
-F 1 "VDDA" V 8617 3128 50  0000 L CNN
-F 2 "" H 8600 3000 50  0001 C CNN
-F 3 "" H 8600 3000 50  0001 C CNN
-	1    8600 3000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8500 2800 8600 2800
-Wire Wire Line
-	8500 3000 8600 3000
 Wire Wire Line
 	8200 2800 8100 2800
 Wire Wire Line
@@ -1120,32 +987,8 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10200 1200 50  0001 C CNN
 	1    10200 1200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Diode:1N5818 D16
-U 1 1 637CA49F
-P 10200 1400
-F 0 "D16" H 10200 1650 50  0000 C CNN
-F 1 "1N5818" H 10200 1550 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10200 1225 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10200 1400 50  0001 C CNN
-	1    10200 1400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VDDA #PWR047
-U 1 1 637CA4AB
-P 10450 1400
-F 0 "#PWR047" H 10450 1250 50  0001 C CNN
-F 1 "VDDA" V 10467 1528 50  0000 L CNN
-F 2 "" H 10450 1400 50  0001 C CNN
-F 3 "" H 10450 1400 50  0001 C CNN
-	1    10450 1400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10350 1200 10450 1200
-Wire Wire Line
-	10350 1400 10450 1400
 Wire Wire Line
 	10050 1200 9950 1200
 Wire Wire Line
@@ -1171,17 +1014,6 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10200 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Diode:1N5818 D18
-U 1 1 6386F391
-P 10200 3850
-F 0 "D18" H 10200 4100 50  0000 C CNN
-F 1 "1N5818" H 10200 4000 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10200 3675 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10200 3850 50  0001 C CNN
-	1    10200 3850
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR049
 U 1 1 6386F397
 P 10450 3650
@@ -1194,8 +1026,6 @@ F 3 "" H 10450 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10350 3650 10450 3650
-Wire Wire Line
-	10350 3850 10450 3850
 Wire Wire Line
 	10050 3650 9950 3650
 Wire Wire Line
@@ -1357,25 +1187,141 @@ SigRtn
 Text GLabel 10450 2000 2    50   Input ~ 0
 SigRtn
 $Comp
-L power:VDD #PWR?
-U 1 1 63819CE9
-P 10450 3850
-F 0 "#PWR?" H 10450 3700 50  0001 C CNN
-F 1 "VDD" V 10465 3978 50  0000 L CNN
-F 2 "" H 10450 3850 50  0001 C CNN
-F 3 "" H 10450 3850 50  0001 C CNN
-	1    10450 3850
-	0    1    1    0   
+L V10-Ign-Inj-Drivers-V2-rescue:ZENERsmall D2
+U 1 1 638CFCC2
+P 8300 1400
+F 0 "D2" H 8300 1200 50  0000 C CNN
+F 1 "1N5231B" H 8300 1300 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8300 1400 50  0001 C CNN
+F 3 "" H 8300 1400 50  0000 C CNN
+	1    8300 1400
+	-1   0    0    -1  
 $EndComp
 $Comp
-L power:VDD #PWR?
-U 1 1 63823921
+L V10-Ign-Inj-Drivers-V2-rescue:ZENERsmall D4
+U 1 1 638DABDC
+P 8300 2200
+F 0 "D4" H 8300 2000 50  0000 C CNN
+F 1 "1N5231B" H 8300 2100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8300 2200 50  0001 C CNN
+F 3 "" H 8300 2200 50  0000 C CNN
+	1    8300 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L V10-Ign-Inj-Drivers-V2-rescue:ZENERsmall D6
+U 1 1 638DB002
+P 8300 3000
+F 0 "D6" H 8300 2800 50  0000 C CNN
+F 1 "1N5231B" H 8300 2900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8300 3000 50  0001 C CNN
+F 3 "" H 8300 3000 50  0000 C CNN
+	1    8300 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L V10-Ign-Inj-Drivers-V2-rescue:ZENERsmall D10
+U 1 1 638DB36D
+P 8300 3850
+F 0 "D10" H 8300 3650 50  0000 C CNN
+F 1 "1N5231B" H 8300 3750 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 8300 3850 50  0001 C CNN
+F 3 "" H 8300 3850 50  0000 C CNN
+	1    8300 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L V10-Ign-Inj-Drivers-V2-rescue:ZENERsmall D16
+U 1 1 638DB85A
+P 10150 1400
+F 0 "D16" H 10150 1200 50  0000 C CNN
+F 1 "1N5231B" H 10150 1300 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10150 1400 50  0001 C CNN
+F 3 "" H 10150 1400 50  0000 C CNN
+	1    10150 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L V10-Ign-Inj-Drivers-V2-rescue:ZENERsmall D8
+U 1 1 638DBC04
+P 10150 2200
+F 0 "D8" H 10150 2000 50  0000 C CNN
+F 1 "1N5231B" H 10150 2100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10150 2200 50  0001 C CNN
+F 3 "" H 10150 2200 50  0000 C CNN
+	1    10150 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L V10-Ign-Inj-Drivers-V2-rescue:ZENERsmall D12
+U 1 1 638DBE45
+P 10150 3000
+F 0 "D12" H 10150 2800 50  0000 C CNN
+F 1 "1N5231B" H 10150 2900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10150 3000 50  0001 C CNN
+F 3 "" H 10150 3000 50  0000 C CNN
+	1    10150 3000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L V10-Ign-Inj-Drivers-V2-rescue:ZENERsmall D18
+U 1 1 638DC05A
+P 10150 3850
+F 0 "D18" H 10150 3650 50  0000 C CNN
+F 1 "1N5231B" H 10150 3750 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10150 3850 50  0001 C CNN
+F 3 "" H 10150 3850 50  0000 C CNN
+	1    10150 3850
+	-1   0    0    -1  
+$EndComp
+Text GLabel 8600 1400 2    50   Input ~ 0
+SigRtn
+Text GLabel 8600 2200 2    50   Input ~ 0
+SigRtn
+Text GLabel 8600 3000 2    50   Input ~ 0
+SigRtn
+Text GLabel 8600 3850 2    50   Input ~ 0
+SigRtn
+Text GLabel 10450 1400 2    50   Input ~ 0
+SigRtn
+Text GLabel 10450 2200 2    50   Input ~ 0
+SigRtn
+Wire Wire Line
+	8400 1400 8600 1400
+Wire Wire Line
+	8400 2200 8600 2200
+Wire Wire Line
+	8400 3000 8600 3000
+Wire Wire Line
+	8400 3850 8600 3850
+Wire Wire Line
+	10250 3850 10450 3850
+Wire Wire Line
+	10250 3000 10450 3000
+Wire Wire Line
+	10250 2200 10450 2200
+Wire Wire Line
+	10250 1400 10450 1400
+$Comp
+L power:GND #PWR0110
+U 1 1 63927612
 P 10450 3000
-F 0 "#PWR?" H 10450 2850 50  0001 C CNN
-F 1 "VDD" V 10465 3128 50  0000 L CNN
+F 0 "#PWR0110" H 10450 2750 50  0001 C CNN
+F 1 "GND" V 10450 2800 50  0000 C CNN
 F 2 "" H 10450 3000 50  0001 C CNN
 F 3 "" H 10450 3000 50  0001 C CNN
 	1    10450 3000
-	0    1    1    0   
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 639277A1
+P 10450 3850
+F 0 "#PWR0111" H 10450 3600 50  0001 C CNN
+F 1 "GND" V 10450 3650 50  0000 C CNN
+F 2 "" H 10450 3850 50  0001 C CNN
+F 3 "" H 10450 3850 50  0001 C CNN
+	1    10450 3850
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

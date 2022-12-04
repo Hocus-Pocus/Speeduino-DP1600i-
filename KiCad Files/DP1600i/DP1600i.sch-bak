@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title "DP1600i"
 Date "2022-11-11"
 Rev ""
@@ -36,12 +36,6 @@ S 2750 6750 750  500
 U 63700A4E
 F0 "Outputs" 50
 F1 "file63700A4D.sch" 50
-$EndSheet
-$Sheet
-S 4950 6600 900  800 
-U 637A4EA7
-F0 "temp1" 50
-F1 "file637A4EA6.sch" 50
 $EndSheet
 $Comp
 L power:GND #PWR040
