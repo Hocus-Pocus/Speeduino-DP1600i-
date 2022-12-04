@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "DP1600iAuxBot"
 Date "2022-11-18"
 Rev ""
@@ -13,12 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 5850 7000 1100 650 
-U 64A3EE69
-F0 "Temp" 50
-F1 "file64A3EE68.sch" 50
-$EndSheet
 $Comp
 L Device:R R14
 U 1 1 64A59832
@@ -83,89 +77,66 @@ MCU-D19
 Wire Wire Line
 	9950 1700 9800 1700
 Connection ~ 9800 1700
-Connection ~ 9800 1950
+Connection ~ 9800 2400
 Wire Wire Line
-	9950 1950 9800 1950
-Text GLabel 9950 1950 2    50   Input ~ 0
+	9950 2400 9800 2400
+Text GLabel 9950 2400 2    50   Input ~ 0
 MCU-D18
 Wire Wire Line
-	9800 2450 9800 2350
+	9800 2900 9800 2800
 $Comp
 L power:GND #PWR014
 U 1 1 64A5985A
-P 9800 2450
-F 0 "#PWR014" H 9800 2200 50  0001 C CNN
-F 1 "GND" H 9805 2277 50  0000 C CNN
-F 2 "" H 9800 2450 50  0001 C CNN
-F 3 "" H 9800 2450 50  0001 C CNN
-	1    9800 2450
+P 9800 2900
+F 0 "#PWR014" H 9800 2650 50  0001 C CNN
+F 1 "GND" H 9805 2727 50  0000 C CNN
+F 2 "" H 9800 2900 50  0001 C CNN
+F 3 "" H 9800 2900 50  0001 C CNN
+	1    9800 2900
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 1950 9800 1950
-Connection ~ 9650 1950
+	9650 2400 9800 2400
 Wire Wire Line
-	9800 1950 9800 2050
+	9800 2400 9800 2500
 Wire Wire Line
-	7700 2600 7800 2600
+	6350 2000 6450 2000
 Wire Wire Line
-	8100 2000 8200 2000
-Connection ~ 8100 2000
-Wire Wire Line
-	8100 2150 8100 2000
-Wire Wire Line
-	7850 2000 8100 2000
-Text GLabel 7850 2000 0    50   Input ~ 0
-CMP+
+	6350 2150 6350 2000
 $Comp
 L Device:C C2
 U 1 1 64A59870
-P 9800 2200
-F 0 "C2" H 9915 2246 50  0000 L CNN
-F 1 "0.1uF" H 9915 2155 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 9838 2050 50  0001 C CNN
-F 3 "~" H 9800 2200 50  0001 C CNN
-F 4 "445-180563-1-ND" H -100 -2200 50  0001 C CNN "Digikey Part Number"
-F 5 "TDK" H -100 -2200 50  0001 C CNN "Manufacturer_Name"
-F 6 "FA18X8R1E104KNU06" H -100 -2200 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X8R1E104KNU06/445-180563-1-ND/9560689" H -100 -2200 50  0001 C CNN "URL"
-	1    9800 2200
+P 9800 2650
+F 0 "C2" H 9915 2696 50  0000 L CNN
+F 1 "0.1uF" H 9915 2605 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 9838 2500 50  0001 C CNN
+F 3 "~" H 9800 2650 50  0001 C CNN
+F 4 "445-180563-1-ND" H -100 -1750 50  0001 C CNN "Digikey Part Number"
+F 5 "TDK" H -100 -1750 50  0001 C CNN "Manufacturer_Name"
+F 6 "FA18X8R1E104KNU06" H -100 -1750 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/product-detail/en/tdk-corporation/FA18X8R1E104KNU06/445-180563-1-ND/9560689" H -100 -1750 50  0001 C CNN "URL"
+	1    9800 2650
 	1    0    0    1   
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 64A5987A
-P 7950 2600
-F 0 "R15" V 7743 2600 50  0000 C CNN
-F 1 "1k" V 7834 2600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7880 2600 50  0001 C CNN
-F 3 "~" H 7950 2600 50  0001 C CNN
-F 4 "BC1.00KXCT-ND" H -100 -2200 50  0001 C CNN "Digikey Part Number"
-F 5 "Vishay" H -100 -2200 50  0001 C CNN "Manufacturer_Name"
-F 6 "MBA02040C1001FRP00" H -100 -2200 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "" H -100 -2200 50  0001 C CNN "URL"
-	1    7950 2600
-	0    1    -1   0   
 $EndComp
 Text Notes 8100 700  0    74   ~ 0
 Crank Angle Sensor conditioner
 $Comp
 L Jumper:Jumper_2_Open JP2
 U 1 1 64A59887
-P 8100 2350
-F 0 "JP2" H 8050 2500 50  0000 L CNN
-F 1 "PULL-UP" H 7900 2300 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8100 2350 50  0001 C CNN
-F 3 "~" H 8100 2350 50  0001 C CNN
-F 4 "952-2261-ND " H 8100 2350 50  0001 C CNN "Digikey Part Number"
-F 5 "Harwin Inc" H 8100 2350 50  0001 C CNN "Manufacturer_Name"
-F 6 "M20-9990245 " H 8100 2350 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/products/en?keywords=M20-9990245" H 8100 2350 50  0001 C CNN "URL"
-	1    8100 2350
+P 6350 2350
+F 0 "JP2" H 6300 2500 50  0000 L CNN
+F 1 "PULL-UP" H 6150 2300 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6350 2350 50  0001 C CNN
+F 3 "~" H 6350 2350 50  0001 C CNN
+F 4 "952-2261-ND " H 6350 2350 50  0001 C CNN "Digikey Part Number"
+F 5 "Harwin Inc" H 6350 2350 50  0001 C CNN "Manufacturer_Name"
+F 6 "M20-9990245 " H 6350 2350 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/products/en?keywords=M20-9990245" H 6350 2350 50  0001 C CNN "URL"
+	1    6350 2350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8100 2550 8100 2600
+	6350 2550 6350 2600
 $Comp
 L Jumper:Jumper_2_Open JP1
 U 1 1 64A59892
@@ -194,10 +165,6 @@ F 3 "~" H 9100 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8100 1700 8200 1700
-Wire Wire Line
-	9650 1950 9650 1800
-Wire Wire Line
-	9650 1800 9400 1800
 $Comp
 L power:VDD #PWR011
 U 1 1 64A598A1
@@ -224,14 +191,14 @@ F 3 "" H 9500 2100 50  0001 C CNN
 $EndComp
 Text GLabel 8900 1700 0    50   Input ~ 0
 CKP-
-Text GLabel 8900 2000 0    50   Input ~ 0
+Text GLabel 8150 2000 0    50   Input ~ 0
 CMP-
 $Comp
 L Jumper:Jumper_3_Open JP3
 U 1 1 64A598B6
 P 8350 1550
-F 0 "JP3" V 8396 1637 50  0000 L CNN
-F 1 "VR-HALL" V 8305 1637 50  0000 L CNN
+F 0 "JP3" H 8300 1800 50  0000 L CNN
+F 1 "VR-HALL" H 8150 1700 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8350 1550 50  0001 C CNN
 F 3 "~" H 8350 1550 50  0001 C CNN
 F 4 "952-2263-ND " H 8350 1550 50  0001 C CNN "Digikey Part Number"
@@ -244,20 +211,18 @@ $EndComp
 $Comp
 L Jumper:Jumper_3_Open JP4
 U 1 1 64A598C0
-P 8350 2150
-F 0 "JP4" V 8304 2237 50  0000 L CNN
-F 1 "VR-HALL" V 8395 2237 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8350 2150 50  0001 C CNN
-F 3 "~" H 8350 2150 50  0001 C CNN
-F 4 "952-2263-ND " H 8350 2150 50  0001 C CNN "Digikey Part Number"
-F 5 "Harwin Inc" H 8350 2150 50  0001 C CNN "Manufacturer_Name"
-F 6 "M20-9990345" H 8350 2150 50  0001 C CNN "Manufacturer_Part_Number"
-F 7 "https://www.digikey.com.au/products/en?keywords=M20-9990345" H 8350 2150 50  0001 C CNN "URL"
-	1    8350 2150
+P 6600 2150
+F 0 "JP4" H 6600 2400 50  0000 L CNN
+F 1 "HALL-VR" H 6450 2300 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6600 2150 50  0001 C CNN
+F 3 "~" H 6600 2150 50  0001 C CNN
+F 4 "952-2263-ND " H 6600 2150 50  0001 C CNN "Digikey Part Number"
+F 5 "Harwin Inc" H 6600 2150 50  0001 C CNN "Manufacturer_Name"
+F 6 "M20-9990345" H 6600 2150 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/products/en?keywords=M20-9990345" H 6600 2150 50  0001 C CNN "URL"
+	1    6600 2150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8350 1900 8900 1900
 Wire Wire Line
 	8350 1800 8900 1800
 Wire Wire Line
@@ -265,67 +230,50 @@ Wire Wire Line
 Wire Wire Line
 	8200 1700 8200 1550
 Wire Wire Line
-	8200 2000 8200 2150
+	6450 2000 6450 2150
 Connection ~ 9650 1300
 Wire Wire Line
 	9650 1300 9650 1700
 Connection ~ 9650 2400
 Wire Wire Line
-	9650 2400 9650 1950
-Wire Wire Line
 	9400 1900 9500 1900
 Wire Wire Line
 	9500 1900 9500 2100
-Wire Wire Line
-	8350 2400 9650 2400
 Wire Wire Line
 	8350 1300 9650 1300
 $Comp
 L Diode:1N5818 D3
 U 1 1 64A8A9BD
-P 10150 2650
-F 0 "D3" H 10150 2867 50  0000 C CNN
-F 1 "1N5818" H 10150 2776 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10150 2475 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10150 2650 50  0001 C CNN
-	1    10150 2650
+P 10150 3100
+F 0 "D3" H 10150 3317 50  0000 C CNN
+F 1 "1N5818" H 10150 3226 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10150 2925 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10150 3100 50  0001 C CNN
+	1    10150 3100
 	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N5818 D4
-U 1 1 64A8A9C3
-P 10150 2850
-F 0 "D4" H 10150 3100 50  0000 C CNN
-F 1 "1N5818" H 10150 3000 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10150 2675 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10150 2850 50  0001 C CNN
-	1    10150 2850
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 64A8A9C9
-P 10400 2650
-F 0 "#PWR017" H 10400 2400 50  0001 C CNN
-F 1 "GND" V 10400 2450 50  0000 C CNN
-F 2 "" H 10400 2650 50  0001 C CNN
-F 3 "" H 10400 2650 50  0001 C CNN
-	1    10400 2650
+P 10400 3100
+F 0 "#PWR017" H 10400 2850 50  0001 C CNN
+F 1 "GND" V 10400 2900 50  0000 C CNN
+F 2 "" H 10400 3100 50  0001 C CNN
+F 3 "" H 10400 3100 50  0001 C CNN
+	1    10400 3100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10300 2650 10400 2650
+	10300 3100 10400 3100
 Wire Wire Line
-	10300 2850 10400 2850
+	10000 3100 9900 3100
 Wire Wire Line
-	10000 2650 9900 2650
+	9900 3100 9900 3200
 Wire Wire Line
-	9900 2650 9900 2750
+	9900 3300 10000 3300
+Connection ~ 9900 3200
 Wire Wire Line
-	9900 2850 10000 2850
-Connection ~ 9900 2750
-Wire Wire Line
-	9900 2750 9900 2850
+	9900 3200 9900 3300
 $Comp
 L Diode:1N5818 D1
 U 1 1 64A8A9DE
@@ -336,17 +284,6 @@ F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10150 625 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10150 800 50  0001 C CNN
 	1    10150 800 
 	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N5818 D2
-U 1 1 64A8A9E4
-P 10150 1000
-F 0 "D2" H 10150 1250 50  0000 C CNN
-F 1 "1N5818" H 10150 1150 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10150 825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 10150 1000 50  0001 C CNN
-	1    10150 1000
-	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR015
@@ -362,8 +299,6 @@ $EndComp
 Wire Wire Line
 	10300 800  10400 800 
 Wire Wire Line
-	10300 1000 10400 1000
-Wire Wire Line
 	10000 800  9900 800 
 Wire Wire Line
 	9900 800  9900 900 
@@ -372,7 +307,7 @@ Wire Wire Line
 Connection ~ 9900 900 
 Wire Wire Line
 	9900 900  9900 1000
-Text Notes 8100 2950 0    74   ~ 0
+Text Notes 7550 3100 0    74   ~ 0
 Cam Angle Sensor conditioner
 $Comp
 L Device:R R2
@@ -407,7 +342,7 @@ Wire Wire Line
 	1750 2950 1900 2950
 Wire Wire Line
 	1000 2850 1000 2950
-Text Notes 2500 2700 0    50   ~ 0
+Text Notes 2500 2550 0    50   ~ 0
 (Sinking Transistor PWM Output from ULN2003)
 Text Notes 2500 3100 0    50   ~ 0
 (12 volt square wave signal to tachometer & LED)\n\n
@@ -439,9 +374,7 @@ Connection ~ 1200 2100
 Wire Wire Line
 	1200 2100 1000 2100
 Wire Wire Line
-	9650 2400 9650 2750
-Wire Wire Line
-	9650 2750 9900 2750
+	9650 3200 9900 3200
 Wire Wire Line
 	9650 900  9650 1300
 Wire Wire Line
@@ -675,39 +608,6 @@ F 3 "" H 3600 6850 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:VDD #PWR016
-U 1 1 63869945
-P 10400 1000
-F 0 "#PWR016" H 10400 850 50  0001 C CNN
-F 1 "VDD" V 10418 1127 50  0000 L CNN
-F 2 "" H 10400 1000 50  0001 C CNN
-F 3 "" H 10400 1000 50  0001 C CNN
-	1    10400 1000
-	0    1    -1   0   
-$EndComp
-$Comp
-L power:VDD #PWR018
-U 1 1 6386A06F
-P 10400 2850
-F 0 "#PWR018" H 10400 2700 50  0001 C CNN
-F 1 "VDD" V 10418 2977 50  0000 L CNN
-F 2 "" H 10400 2850 50  0001 C CNN
-F 3 "" H 10400 2850 50  0001 C CNN
-	1    10400 2850
-	0    1    -1   0   
-$EndComp
-$Comp
-L power:VDD #PWR07
-U 1 1 6386AD23
-P 7700 2600
-F 0 "#PWR07" H 7700 2450 50  0001 C CNN
-F 1 "VDD" V 7718 2727 50  0000 L CNN
-F 2 "" H 7700 2600 50  0001 C CNN
-F 3 "" H 7700 2600 50  0001 C CNN
-	1    7700 2600
-	0    -1   1    0   
-$EndComp
-$Comp
 L power:VDD #PWR06
 U 1 1 6386B6B3
 P 7700 1050
@@ -767,184 +667,10 @@ F 12 "Active" H 1300 3850 60  0001 L CNN "Status"
 	1    1100 2650
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:R R4
-U 1 1 6385030A
-P 1700 3550
-F 0 "R4" V 1700 3800 50  0000 C CNN
-F 1 "10M" V 1700 3550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1630 3550 50  0001 C CNN
-F 3 "~" H 1700 3550 50  0001 C CNN
-	1    1700 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 6385096D
-P 1700 3650
-F 0 "R5" V 1700 3900 50  0000 C CNN
-F 1 "10M" V 1700 3650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1630 3650 50  0001 C CNN
-F 3 "~" H 1700 3650 50  0001 C CNN
-	1    1700 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR02
-U 1 1 63851E5C
-P 1850 4600
-F 0 "#PWR02" H 1850 4350 50  0001 C CNN
-F 1 "GND" H 1855 4427 50  0000 C CNN
-F 2 "" H 1850 4600 50  0001 C CNN
-F 3 "" H 1850 4600 50  0001 C CNN
-	1    1850 4600
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 6385343E
-P 1700 3750
-F 0 "R6" V 1700 4000 50  0000 C CNN
-F 1 "10M" V 1700 3750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1630 3750 50  0001 C CNN
-F 3 "~" H 1700 3750 50  0001 C CNN
-	1    1700 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 63853444
-P 1700 3850
-F 0 "R7" V 1700 4100 50  0000 C CNN
-F 1 "10M" V 1700 3850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1630 3850 50  0001 C CNN
-F 3 "~" H 1700 3850 50  0001 C CNN
-	1    1700 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 6385639A
-P 1700 3950
-F 0 "R8" V 1700 4200 50  0000 C CNN
-F 1 "10M" V 1700 3950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1630 3950 50  0001 C CNN
-F 3 "~" H 1700 3950 50  0001 C CNN
-	1    1700 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 638563A0
-P 1700 4050
-F 0 "R9" V 1700 4300 50  0000 C CNN
-F 1 "10M" V 1700 4050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1630 4050 50  0001 C CNN
-F 3 "~" H 1700 4050 50  0001 C CNN
-	1    1700 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 6385954E
-P 1700 4150
-F 0 "R10" V 1700 4400 50  0000 C CNN
-F 1 "10M" V 1700 4150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1630 4150 50  0001 C CNN
-F 3 "~" H 1700 4150 50  0001 C CNN
-	1    1700 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 63859554
-P 1700 4250
-F 0 "R11" V 1700 4500 50  0000 C CNN
-F 1 "10M" V 1700 4250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1630 4250 50  0001 C CNN
-F 3 "~" H 1700 4250 50  0001 C CNN
-	1    1700 4250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 6385C91E
-P 1700 4350
-F 0 "R12" V 1700 4600 50  0000 C CNN
-F 1 "10M" V 1700 4350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1630 4350 50  0001 C CNN
-F 3 "~" H 1700 4350 50  0001 C CNN
-	1    1700 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 6385C924
-P 1700 4450
-F 0 "R13" V 1700 4700 50  0000 C CNN
-F 1 "10M" V 1700 4450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1630 4450 50  0001 C CNN
-F 3 "~" H 1700 4450 50  0001 C CNN
-	1    1700 4450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1850 3550 1850 3650
-Wire Wire Line
-	1850 3650 1850 3750
-Connection ~ 1850 3650
-Wire Wire Line
-	1850 3750 1850 3850
-Connection ~ 1850 3750
-Wire Wire Line
-	1850 3850 1850 3950
-Connection ~ 1850 3850
-Wire Wire Line
-	1850 3950 1850 4050
-Connection ~ 1850 3950
-Wire Wire Line
-	1850 4050 1850 4150
-Connection ~ 1850 4050
-Wire Wire Line
-	1850 4150 1850 4250
-Connection ~ 1850 4150
-Wire Wire Line
-	1850 4250 1850 4350
-Connection ~ 1850 4250
-Wire Wire Line
-	1850 4350 1850 4450
-Connection ~ 1850 4350
-Wire Wire Line
-	1850 4450 1850 4600
-Connection ~ 1850 4450
-Text GLabel 1550 3550 0    50   Input ~ 0
-D8-control
-Text GLabel 1550 3650 0    50   Input ~ 0
-D9-control
-Text GLabel 1550 3750 0    50   Input ~ 0
-D10-control
-Text GLabel 1550 3950 0    50   Input ~ 0
-D12-control
-Text GLabel 1550 3850 0    50   Input ~ 0
-D11-control
-Text GLabel 1550 4050 0    50   Input ~ 0
-D13-control
-Text GLabel 1550 4150 0    50   Input ~ 0
-D50-control
-Text GLabel 1550 4250 0    50   Input ~ 0
-D51-control
-Text GLabel 1550 4350 0    50   Input ~ 0
-D52-control
-Text GLabel 1550 4450 0    50   Input ~ 0
-D53-control
-Text Notes 850  3250 0    50   ~ 0
-Pull downs for high current drivers
 Text Notes 10400 1750 0    50   ~ 0
 CKP input
-Text Notes 10400 2000 0    50   ~ 0
+Text Notes 10400 2450 0    50   ~ 0
 CMP input
-Text Notes 800  3350 0    50   ~ 0
-(ran out of real estate on top board)
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 638C7B58
@@ -1158,4 +884,212 @@ Text Notes 850  1500 0    100  ~ 0
 Tachometer driver circuit
 Text Notes 6950 4000 0    100  ~ 0
 Header sockets connections to DP1660iAuxTop board
+Text Notes 5000 1400 0    50   ~ 0
+DIP8 sized socket pair will accept conditioner modules from WTMotronics, \nJB Perf V2.1, and possibly others that use the MAX9926 chip.
+Text Notes 2500 2750 0    50   ~ 0
+(Pin defaults low. Goes high after boot sequence, goes low \nat start of coil dwell, goes Hi after end of coil dwell.)\n
+$Comp
+L V10-Ign-Inj-Drivers-V2-rescue:ZENERsmall D2
+U 1 1 639478FB
+P 10100 1000
+F 0 "D2" H 10100 1200 50  0000 C CNN
+F 1 "1N5231B" H 10100 1100 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10100 1000 50  0001 C CNN
+F 3 "" H 10100 1000 50  0000 C CNN
+	1    10100 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L V10-Ign-Inj-Drivers-V2-rescue:ZENERsmall D4
+U 1 1 639482ED
+P 10100 3300
+F 0 "D4" H 10100 3500 50  0000 C CNN
+F 1 "1N5231B" H 10100 3400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 10100 3300 50  0001 C CNN
+F 3 "" H 10100 3300 50  0000 C CNN
+	1    10100 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 639486BA
+P 10400 3300
+F 0 "#PWR0101" H 10400 3050 50  0001 C CNN
+F 1 "GND" V 10400 3100 50  0000 C CNN
+F 2 "" H 10400 3300 50  0001 C CNN
+F 3 "" H 10400 3300 50  0001 C CNN
+	1    10400 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 639488D6
+P 10400 1000
+F 0 "#PWR0102" H 10400 750 50  0001 C CNN
+F 1 "GND" V 10400 800 50  0000 C CNN
+F 2 "" H 10400 1000 50  0001 C CNN
+F 3 "" H 10400 1000 50  0001 C CNN
+	1    10400 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 1000 10400 1000
+Wire Wire Line
+	10200 3300 10400 3300
+$Comp
+L Jumper:Jumper_3_Open JP7
+U 1 1 63956FE0
+P 10000 1950
+F 0 "JP7" H 9950 2200 50  0000 L CNN
+F 1 "EN-DIS" H 9900 2100 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10000 1950 50  0001 C CNN
+F 3 "~" H 10000 1950 50  0001 C CNN
+F 4 "952-2263-ND " H 10000 1950 50  0001 C CNN "Digikey Part Number"
+F 5 "Harwin Inc" H 10000 1950 50  0001 C CNN "Manufacturer_Name"
+F 6 "M20-9990345" H 10000 1950 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/products/en?keywords=M20-9990345" H 10000 1950 50  0001 C CNN "URL"
+	1    10000 1950
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 63967A7F
+P 10400 2000
+F 0 "#PWR0103" H 10400 1750 50  0001 C CNN
+F 1 "GND" H 10405 1827 50  0000 C CNN
+F 2 "" H 10400 2000 50  0001 C CNN
+F 3 "" H 10400 2000 50  0001 C CNN
+	1    10400 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 1800 10000 1800
+Wire Wire Line
+	9750 1950 9650 1950
+Wire Wire Line
+	9650 1950 9650 2400
+Wire Wire Line
+	10250 1950 10400 1950
+Wire Wire Line
+	10400 1950 10400 2000
+$Comp
+L Jumper:Jumper_3_Open JP6
+U 1 1 639865C6
+P 8550 2150
+F 0 "JP6" H 8500 2400 50  0000 L CNN
+F 1 "DIS-EN" H 8400 2300 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8550 2150 50  0001 C CNN
+F 3 "~" H 8550 2150 50  0001 C CNN
+F 4 "952-2263-ND " H 8550 2150 50  0001 C CNN "Digikey Part Number"
+F 5 "Harwin Inc" H 8550 2150 50  0001 C CNN "Manufacturer_Name"
+F 6 "M20-9990345" H 8550 2150 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/products/en?keywords=M20-9990345" H 8550 2150 50  0001 C CNN "URL"
+	1    8550 2150
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6398739A
+P 8200 2200
+F 0 "#PWR0104" H 8200 1950 50  0001 C CNN
+F 1 "GND" H 8205 2027 50  0000 C CNN
+F 2 "" H 8200 2200 50  0001 C CNN
+F 3 "" H 8200 2200 50  0001 C CNN
+	1    8200 2200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2400 6600 2550
+Wire Wire Line
+	8300 2150 8200 2150
+Wire Wire Line
+	8200 2150 8200 2200
+Wire Wire Line
+	8800 2150 8800 2000
+Wire Wire Line
+	8800 2000 8900 2000
+Wire Wire Line
+	8550 2000 8150 2000
+$Comp
+L Jumper:Jumper_3_Open JP5
+U 1 1 63964958
+P 7350 2050
+F 0 "JP5" H 7250 2300 50  0000 L CNN
+F 1 "EN-DIS" H 7200 2200 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7350 2050 50  0001 C CNN
+F 3 "~" H 7350 2050 50  0001 C CNN
+F 4 "952-2263-ND " H 7350 2050 50  0001 C CNN "Digikey Part Number"
+F 5 "Harwin Inc" H 7350 2050 50  0001 C CNN "Manufacturer_Name"
+F 6 "M20-9990345" H 7350 2050 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "https://www.digikey.com.au/products/en?keywords=M20-9990345" H 7350 2050 50  0001 C CNN "URL"
+	1    7350 2050
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 63961784
+P 7700 2150
+F 0 "#PWR0105" H 7700 1900 50  0001 C CNN
+F 1 "GND" H 7705 1977 50  0000 C CNN
+F 2 "" H 7700 2150 50  0001 C CNN
+F 3 "" H 7700 2150 50  0001 C CNN
+	1    7700 2150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR07
+U 1 1 6386AD23
+P 5950 2600
+F 0 "#PWR07" H 5950 2450 50  0001 C CNN
+F 1 "VDD" V 5968 2727 50  0000 L CNN
+F 2 "" H 5950 2600 50  0001 C CNN
+F 3 "" H 5950 2600 50  0001 C CNN
+	1    5950 2600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 64A5987A
+P 6200 2600
+F 0 "R15" V 5993 2600 50  0000 C CNN
+F 1 "1k" V 6084 2600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6130 2600 50  0001 C CNN
+F 3 "~" H 6200 2600 50  0001 C CNN
+F 4 "BC1.00KXCT-ND" H -1850 -2200 50  0001 C CNN "Digikey Part Number"
+F 5 "Vishay" H -1850 -2200 50  0001 C CNN "Manufacturer_Name"
+F 6 "MBA02040C1001FRP00" H -1850 -2200 50  0001 C CNN "Manufacturer_Part_Number"
+F 7 "" H -1850 -2200 50  0001 C CNN "URL"
+	1    6200 2600
+	0    1    -1   0   
+$EndComp
+Text GLabel 6150 2000 0    50   Input ~ 0
+CMP+
+Wire Wire Line
+	5950 2600 6050 2600
+Wire Wire Line
+	9650 2400 9650 2550
+Wire Wire Line
+	6150 2000 6350 2000
+Connection ~ 6350 2000
+Wire Wire Line
+	6600 1900 7100 1900
+Wire Wire Line
+	7100 1900 7100 2050
+Wire Wire Line
+	7600 2050 7700 2050
+Wire Wire Line
+	7700 2050 7700 2150
+Wire Wire Line
+	7350 1900 8900 1900
+Text Notes 7000 1850 0    50   ~ 0
+CMP Enable/Disable
+Text Notes 10200 1900 0    50   ~ 0
+CMP Enable/Disable
+Wire Wire Line
+	6600 2550 9650 2550
+Connection ~ 9650 2550
+Wire Wire Line
+	9650 2550 9650 3200
+Text Notes 8150 2000 0    50   ~ 0
+CMP Enable/Disable
 $EndSCHEMATC
