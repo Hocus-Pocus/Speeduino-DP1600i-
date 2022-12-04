@@ -1951,4 +1951,91 @@ $EndComp
 Wire Wire Line
 	6900 1850 6900 1500
 Connection ~ 6900 1500
+$Comp
+L Device:R_Network03_US RN1
+U 1 1 639FC361
+P 1800 6800
+F 0 "RN1" V 1483 6800 50  0000 C CNN
+F 1 "R_Network03_US" V 1574 6800 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 2075 6800 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1800 6800 50  0001 C CNN
+	1    1800 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 63A3DFE7
+P 2150 6700
+AR Path="/63777FB0/63A3DFE7" Ref="#PWR?"  Part="1" 
+AR Path="/63A3DFE7" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 2150 6450 50  0001 C CNN
+F 1 "GND" H 2150 6550 50  0000 C CNN
+F 2 "" H 2150 6700 50  0000 C CNN
+F 3 "" H 2150 6700 50  0000 C CNN
+	1    2150 6700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1500 6700 0    60   Input ~ 0
+D13-control
+Text GLabel 1500 6800 0    60   Input ~ 0
+D10-control
+Text GLabel 1500 6900 0    60   Input ~ 0
+D11-control
+Text GLabel 4100 2950 3    60   Input ~ 0
+D8-control
+Text GLabel 4300 2950 3    60   Input ~ 0
+D9-control
+$Comp
+L power:GND #PWR0105
+U 1 1 63A3EC69
+P 4400 2950
+F 0 "#PWR0105" H 4400 2700 50  0001 C CNN
+F 1 "GND" V 4400 2750 50  0000 C CNN
+F 2 "" H 4400 2950 50  0001 C CNN
+F 3 "" H 4400 2950 50  0001 C CNN
+	1    4400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 6700 2150 6700
+Wire Wire Line
+	1600 6700 1500 6700
+Wire Wire Line
+	1600 6800 1500 6800
+Wire Wire Line
+	1600 6900 1500 6900
+Text Notes 4100 2250 0    50   ~ 0
+100K
+Text Notes 1700 7100 0    50   ~ 0
+100K
+$Comp
+L Device:R_Pack02_SIP RN2
+U 1 1 639FE9B3
+P 4200 2650
+F 0 "RN2" H 4100 3000 50  0000 L CNN
+F 1 "R_Pack02_SIP" H 3950 2900 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP4" V 4575 2650 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 4200 2650 50  0001 C CNN
+	1    4200 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 63AC1D04
+P 4000 2950
+F 0 "#PWR0106" H 4000 2700 50  0001 C CNN
+F 1 "GND" V 4000 2750 50  0000 C CNN
+F 2 "" H 4000 2950 50  0001 C CNN
+F 3 "" H 4000 2950 50  0001 C CNN
+	1    4000 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2850 4400 2950
+Wire Wire Line
+	4300 2850 4300 2950
+Wire Wire Line
+	4100 2850 4100 2950
+Wire Wire Line
+	4000 2850 4000 2950
 $EndSCHEMATC
