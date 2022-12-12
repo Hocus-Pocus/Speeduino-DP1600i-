@@ -1092,4 +1092,6 @@ Wire Wire Line
 	9650 2550 9650 3200
 Text Notes 8150 2000 0    50   ~ 0
 CMP Enable/Disable
+Text Notes 8200 3250 0    50   ~ 0
+Optional
 $EndSCHEMATC
