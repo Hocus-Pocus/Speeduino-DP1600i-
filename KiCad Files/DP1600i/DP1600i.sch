@@ -202,23 +202,23 @@ Cam Position input
 $Comp
 L power:VDD #PWR02
 U 1 1 63826E84
-P 7900 2350
-F 0 "#PWR02" H 7900 2200 50  0001 C CNN
-F 1 "VDD" V 7915 2477 50  0000 L CNN
-F 2 "" H 7900 2350 50  0001 C CNN
-F 3 "" H 7900 2350 50  0001 C CNN
-	1    7900 2350
+P 7600 2700
+F 0 "#PWR02" H 7600 2550 50  0001 C CNN
+F 1 "VDD" V 7615 2827 50  0000 L CNN
+F 2 "" H 7600 2700 50  0001 C CNN
+F 3 "" H 7600 2700 50  0001 C CNN
+	1    7600 2700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:VDD #PWR038
 U 1 1 63827375
-P 8300 2350
-F 0 "#PWR038" H 8300 2200 50  0001 C CNN
-F 1 "VDD" V 8315 2477 50  0000 L CNN
-F 2 "" H 8300 2350 50  0001 C CNN
-F 3 "" H 8300 2350 50  0001 C CNN
-	1    8300 2350
+P 8450 2700
+F 0 "#PWR038" H 8450 2550 50  0001 C CNN
+F 1 "VDD" V 8465 2827 50  0000 L CNN
+F 2 "" H 8450 2700 50  0001 C CNN
+F 3 "" H 8450 2700 50  0001 C CNN
+	1    8450 2700
 	0    1    1    0   
 $EndComp
 Text GLabel 5050 1400 3    50   Input ~ 0
@@ -245,12 +245,12 @@ Text Notes 4100 2050 1    50   ~ 0
 Spare
 Text Notes 4000 2050 1    50   ~ 0
 Spare
-Text GLabel 4650 1400 3    50   Input ~ 0
-MCU-D0
+Text GLabel 7600 2900 0    50   Input ~ 0
+MCU-D24
 Text GLabel 4550 1400 3    50   Input ~ 0
 MCU-D1
-Text Notes 4700 2050 1    50   ~ 0
-Spare\n
+Text Notes 7100 2950 2    50   ~ 0
+A4988 En\n
 Text Notes 4600 2050 1    50   ~ 0
 Spare
 Text GLabel 4450 1400 3    50   Input ~ 0
@@ -261,17 +261,6 @@ Text Notes 4500 2050 1    50   ~ 0
 Spare
 Text Notes 4400 2050 1    50   ~ 0
 Spare
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 6390E746
-P 8050 2150
-F 0 "J6" V 8150 2150 50  0000 R CNN
-F 1 "Conn_01x02" V 8250 2300 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8050 2150 50  0001 C CNN
-F 3 "~" H 8050 2150 50  0001 C CNN
-	1    8050 2150
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J5
 U 1 1 6390F18F
@@ -328,10 +317,6 @@ F 3 "~" H 4250 1200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8150 2350 8300 2350
-Wire Wire Line
-	7900 2350 8050 2350
-Wire Wire Line
 	8650 3950 8300 3950
 Wire Wire Line
 	8300 4050 8650 4050
@@ -383,4 +368,28 @@ F 3 "~" H 8000 4050 50  0001 C CNN
 	1    8000 4050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J6
+U 1 1 6394E4BE
+P 7950 2800
+F 0 "J6" H 8000 3117 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 8000 3026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7950 2800 50  0001 C CNN
+F 3 "~" H 7950 2800 50  0001 C CNN
+	1    7950 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2700 7600 2700
+Wire Wire Line
+	7600 2900 7750 2900
+Wire Wire Line
+	8450 2700 8250 2700
+Text GLabel 4650 1400 3    50   Input ~ 0
+MCU-D0
+Text Notes 4700 2050 1    50   ~ 0
+Spare
+NoConn ~ 7750 2800
+NoConn ~ 8250 2800
+NoConn ~ 8250 2900
 $EndSCHEMATC

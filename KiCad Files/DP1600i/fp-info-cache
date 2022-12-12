@@ -1,4 +1,4 @@
-19420333547438336
+19422008464752662
 BPEM488CWaux
 A4988StepStick
 Through hole straight pin header, 1x08, 2.54mm pitch, single row
@@ -405,6 +405,76 @@ TO-220-3 Vertical RM 2.54mm
 0
 3
 3
+Buggly SPD
+MPXH6115_Adapter_Vertical
+
+
+0
+4
+4
+Buggly SPD Aux
+01530008Z_Fuse_Holder
+
+
+0
+3
+2
+Buggly SPD Aux
+Fuse_Bourns_MF-RHT750
+PTC Resettable Fuse, Ihold = 7.5A, Itrip=13.1A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Buggly SPD Aux
+Phoenix_1714955
+
+
+0
+2
+2
+Buggly SPD Aux
+Phoenix_1729063
+
+
+0
+7
+7
+Buggly SPD Aux
+Phoenix_1729063_Rt
+
+
+0
+7
+7
+Buggly SPD Aux
+Phoenix_1729076
+
+
+0
+8
+8
+Buggly SPD Aux
+Phoenix_1729076_Rt
+
+
+0
+8
+8
+Buggly SPD Aux
+Phoenix_1730010
+
+
+0
+2
+2
+Buggly SPD Aux
+VCF4-1000
+
+
+0
+7
+5
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -48853,96 +48923,19 @@ THT ceramic resonator filter DSS6
 3
 3
 DP1600i
-Phoenix_1714955
-
-
+Jumper-Pad
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
 0
-2
-2
-DP1600iAuxTop
-01530008Z_Fuse_Holder
-
-
+1
+1
+DP1600i
+PinHeader_1x01_P2.54mm_Vertical
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
 0
-3
-2
-DP1600iAuxTop
-Phoenix_1714955
-
-
-0
-2
-2
-DP1600iAuxTop
-Phoenix_1714968
-
-
-0
-3
-3
-DP1600iAuxTop
-Phoenix_1715190
-
-
-0
-6
-6
-DP1600iAuxTop
-Phoenix_1715190_Rt
-
-
-0
-6
-6
-DP1600iAuxTop
-Phoenix_1729063
-
-
-0
-7
-7
-DP1600iAuxTop
-Phoenix_1729063_Rt
-
-
-0
-7
-7
-DP1600iAuxTop
-Phoenix_1729076
-
-
-0
-8
-8
-DP1600iAuxTop
-Phoenix_1729076_Rt
-
-
-0
-8
-8
-DP1600iAuxTop
-Phoenix_1729102
-
-
-0
-11
-11
-DP1600iAuxTop
-Phoenix_1730010
-
-
-0
-2
-2
-DP1600iAuxTop
-VCF4-1000
-
-
-0
-7
-5
+1
+1
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -56272,6 +56265,20 @@ Yellow 5381 Series LED
 0
 2
 2
+MPXH61115AC6U Adapter
+MPXH6115_Adapter
+
+
+0
+8
+8
+MPXH61115AC6U Adapter
+MPXH6115_Adapter_Vertical
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

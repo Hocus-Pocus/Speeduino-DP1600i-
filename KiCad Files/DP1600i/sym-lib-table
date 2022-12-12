@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name IC_Automotive)(type Legacy)(uri "C:/Users/angel/Dropbox/My PC (Backup-PC)/Documents/KiCad Projects/Latest/IC_Automotive.lib")(options "")(descr ""))
-  (lib (name V10-Ign-Inj-Drivers-V2-rescue)(type Legacy)(uri "C:/Users/angel/Dropbox/My PC (Backup-PC)/Documents/KiCad Projects/V10 Ign-Inj Drivers V2/V10 Ign-Inj Drivers V2-rescue.lib")(options "")(descr ""))
+  (lib (name "IC_Automotive")(type "Legacy")(uri "C:/Users/angel/Dropbox/My PC (Backup-PC)/Documents/KiCad Projects/Latest/IC_Automotive.lib")(options "")(descr ""))
+  (lib (name "V10-Ign-Inj-Drivers-V2-rescue")(type "Legacy")(uri "C:/Users/angel/Dropbox/My PC (Backup-PC)/Documents/KiCad Projects/V10 Ign-Inj Drivers V2/V10 Ign-Inj Drivers V2-rescue.lib")(options "")(descr ""))
+  (lib (name "DP1600i-rescue")(type "Legacy")(uri "${KIPRJMOD}/DP1600i-rescue.lib")(options "")(descr ""))
 )
