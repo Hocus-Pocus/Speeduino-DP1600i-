@@ -1,4 +1,4 @@
-19420333547438336
+19435366082506506
 BPEM488CWaux
 A4988StepStick
 Through hole straight pin header, 1x08, 2.54mm pitch, single row
@@ -405,6 +405,69 @@ TO-220-3 Vertical RM 2.54mm
 0
 3
 3
+Buggly SPD Aux
+01530008Z_Fuse_Holder
+
+
+0
+3
+2
+Buggly SPD Aux
+Fuse_Bourns_MF-RHT750
+PTC Resettable Fuse, Ihold = 7.5A, Itrip=13.1A, http://www.bourns.com/docs/product-datasheets/mfrht.pdf
+ptc resettable fuse polyfuse THT
+0
+2
+2
+Buggly SPD Aux
+Phoenix_1714955
+
+
+0
+2
+2
+Buggly SPD Aux
+Phoenix_1729063
+
+
+0
+7
+7
+Buggly SPD Aux
+Phoenix_1729063_Rt
+
+
+0
+7
+7
+Buggly SPD Aux
+Phoenix_1729076
+
+
+0
+8
+8
+Buggly SPD Aux
+Phoenix_1729076_Rt
+
+
+0
+8
+8
+Buggly SPD Aux
+Phoenix_1730010
+
+
+0
+2
+2
+Buggly SPD Aux
+VCF4-1000
+
+
+0
+7
+5
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf

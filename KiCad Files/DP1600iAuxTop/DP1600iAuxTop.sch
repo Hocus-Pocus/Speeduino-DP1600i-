@@ -19,7 +19,7 @@ U 1 1 632F999D
 P 4900 1200
 F 0 "K1" V 4300 1200 50  0000 C CNN
 F 1 "Main" V 4450 1200 50  0000 C CNN
-F 2 "DP1600iAuxTop:VCF4-1000" H 6040 1160 50  0001 C CNN
+F 2 "Buggly SPD Aux:VCF4-1000" H 6040 1160 50  0001 C CNN
 F 3 "http://gfinder.findernet.com/assets/Series/353/S40EN.pdf" H 4900 1200 50  0001 C CNN
 	1    4900 1200
 	0    1    1    0   
@@ -99,7 +99,7 @@ U 1 1 632FAF11
 P 5950 1200
 F 0 "K2" V 5350 1200 50  0000 C CNN
 F 1 "Automatic Shut Down" V 5474 1200 50  0000 C CNN
-F 2 "DP1600iAuxTop:VCF4-1000" H 7090 1160 50  0001 C CNN
+F 2 "Buggly SPD Aux:VCF4-1000" H 7090 1160 50  0001 C CNN
 F 3 "http://gfinder.findernet.com/assets/Series/353/S40EN.pdf" H 5950 1200 50  0001 C CNN
 	1    5950 1200
 	0    1    1    0   
